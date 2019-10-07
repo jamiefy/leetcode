@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/lc10regularmatch.dir/regularmatch.cpp.o  -o lc10regularmatch 

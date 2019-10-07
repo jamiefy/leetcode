@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="leetcode"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc26removeduplicates">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc26removeduplicates" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc26removeduplicates"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc26removeduplicates/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc26removeduplicates" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc26removeduplicates/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc25reversekgroup">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc25reversekgroup" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc25reversekgroup"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc25reversekgroup/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc25reversekgroup" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc25reversekgroup/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc23mergelists">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc23mergelists" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc23mergelists"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc23mergelists/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc23mergelists" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc23mergelists/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc11maxarea">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc11maxarea" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc11maxarea"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc11maxarea/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc11maxarea" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc11maxarea/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc15threesum">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc15threesum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc15threesum"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc15threesum/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc15threesum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc15threesum/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc16threesumclosest">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc16threesumclosest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc16threesumclosest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc16threesumclosest/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc16threesumclosest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc16threesumclosest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc9ispalindrome">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc9ispalindrome" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc9ispalindrome"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc9ispalindrome/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc9ispalindrome" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc9ispalindrome/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc10regularmatch">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc10regularmatch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc10regularmatch"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc10regularmatch/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc10regularmatch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc10regularmatch/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc8atoi">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc8atoi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc8atoi"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc8atoi/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc8atoi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc8atoi/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc24swappairs">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc24swappairs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc24swappairs"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc24swappairs/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc24swappairs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc24swappairs/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc6convertString">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc6convertString" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc6convertString"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc6convertString/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc6convertString" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc6convertString/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc20isvalid">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc20isvalid" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc20isvalid"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc20isvalid/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc20isvalid" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc20isvalid/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc7reverseint">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc7reverseint" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc7reverseint"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc7reverseint/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc7reverseint" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc7reverseint/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc27removeElements">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc27removeElements" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc27removeElements"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc27removeElements/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc27removeElements" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc27removeElements/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc14longestcommonprefix">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc14longestcommonprefix" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc14longestcommonprefix"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc14longestcommonprefix/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc14longestcommonprefix" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc14longestcommonprefix/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc12intoroman">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc12intoroman" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc12intoroman"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc12intoroman/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc12intoroman" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc12intoroman/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc18foursum">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc18foursum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc18foursum"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc18foursum/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc18foursum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc18foursum/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc19removenthfromend">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc19removenthfromend" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc19removenthfromend"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc19removenthfromend/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc19removenthfromend" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc19removenthfromend/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc17lettercombinations">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc17lettercombinations" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc17lettercombinations"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc17lettercombinations/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc17lettercombinations" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc17lettercombinations/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc21mergetwolist">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc21mergetwolist" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc21mergetwolist"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc21mergetwolist/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc21mergetwolist" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc21mergetwolist/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc22generateparenthesis">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc22generateparenthesis" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc22generateparenthesis"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc22generateparenthesis/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc22generateparenthesis" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc22generateparenthesis/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/atoi.cpp">
+			<Option target="lc8atoi"/>
+		</Unit>
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/convertString.cpp">
+			<Option target="lc6convertString"/>
+		</Unit>
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/foursum.cpp">
+			<Option target="lc18foursum"/>
+		</Unit>
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/generateparenthesis.cpp">
+			<Option target="lc22generateparenthesis"/>
+		</Unit>
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/intoroman.cpp">
+			<Option target="lc12intoroman"/>
+		</Unit>
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/isPalindrome.cpp">
+			<Option target="lc9ispalindrome"/>
+		</Unit>
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/isvalid.cpp">
+			<Option target="lc20isvalid"/>
+		</Unit>
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/lettercombinations.cpp">
+			<Option target="lc17lettercombinations"/>
+		</Unit>
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/longestcommonprefix.cpp">
+			<Option target="lc14longestcommonprefix"/>
+		</Unit>
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/maxarea.cpp">
+			<Option target="lc11maxarea"/>
+		</Unit>
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/mergeLists.cpp">
+			<Option target="lc23mergelists"/>
+		</Unit>
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/mergetwolist.cpp">
+			<Option target="lc21mergetwolist"/>
+		</Unit>
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/regularmatch.cpp">
+			<Option target="lc10regularmatch"/>
+		</Unit>
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/removeDuplicates.cpp">
+			<Option target="lc26removeduplicates"/>
+		</Unit>
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/removeElements.cpp">
+			<Option target="lc27removeElements"/>
+		</Unit>
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/removenthfromend.cpp">
+			<Option target="lc19removenthfromend"/>
+		</Unit>
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/reverseint.cpp">
+			<Option target="lc7reverseint"/>
+		</Unit>
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/reversekgroup.cpp">
+			<Option target="lc25reversekgroup"/>
+		</Unit>
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/swappairs.cpp">
+			<Option target="lc24swappairs"/>
+		</Unit>
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/threesum.cpp">
+			<Option target="lc15threesum"/>
+		</Unit>
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/threesumcloeset.cpp">
+			<Option target="lc16threesumclosest"/>
+		</Unit>
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

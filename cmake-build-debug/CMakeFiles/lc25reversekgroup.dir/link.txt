@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/lc25reversekgroup.dir/reversekgroup.cpp.o  -o lc25reversekgroup 

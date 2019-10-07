@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/lc9ispalindrome.dir/isPalindrome.cpp.o  -o lc9ispalindrome 

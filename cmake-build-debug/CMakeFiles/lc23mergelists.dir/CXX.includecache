@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/anranzhai/CLionProjects/leetcode/mergeLists.cpp
+iostream
+-
+vector
+-
+memory
+-
+algorithm
+-
+

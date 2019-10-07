@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/lc7reverseint.dir/reverseint.cpp.o  -o lc7reverseint 

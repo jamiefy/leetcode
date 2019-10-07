@@ -1,0 +1,4 @@
+/home/anranzhai/下载/clion-2019.2.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G "CodeBlocks - Unix Makefiles" /home/anranzhai/CLionProjects/leetcode
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/anranzhai/CLionProjects/leetcode/cmake-build-debug

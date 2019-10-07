@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/lc8atoi.dir/atoi.cpp.o  -o lc8atoi 
