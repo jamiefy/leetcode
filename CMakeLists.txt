@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.15)
+cmake_minimum_required(VERSION 3.14)
 project(leetcode)
 
 set(CMAKE_CXX_STANDARD 14)
@@ -28,3 +28,4 @@ add_executable(lc28strStr strStr.cpp)
 add_executable(lc29divide divide.cpp)
 add_executable(lc30findSubstring findSubstring.cpp)
 add_executable(lc31nextPermutation nextPermutation.cpp)
+add_executable(lc33search search.cpp)
