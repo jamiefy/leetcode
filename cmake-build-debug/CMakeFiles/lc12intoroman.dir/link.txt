@@ -1,1 +1,0 @@
-/usr/bin/g++  -g   CMakeFiles/lc12intoroman.dir/intoroman.cpp.o  -o lc12intoroman 

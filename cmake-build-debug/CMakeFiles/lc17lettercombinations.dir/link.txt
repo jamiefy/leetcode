@@ -1,1 +1,0 @@
-/usr/bin/g++  -g   CMakeFiles/lc17lettercombinations.dir/lettercombinations.cpp.o  -o lc17lettercombinations 

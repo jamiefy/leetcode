@@ -1,1 +1,0 @@
-/usr/bin/g++  -g   CMakeFiles/lc13longestcommonprefix.dir/longestcommonprefix.cpp.o  -o lc13longestcommonprefix 
