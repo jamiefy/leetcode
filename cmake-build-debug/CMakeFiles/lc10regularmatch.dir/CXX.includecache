@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/leetcode/regularmatch.cpp
+iostream
+-
+
+D:/leetcode/searchInsert.cpp
+iostream
+-
+vector
+-
+

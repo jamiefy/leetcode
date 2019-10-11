@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\lc12intoroman.dir/objects.a
+C:\qt\Qt5.12.0\Tools\mingw730_64\bin\ar.exe cr CMakeFiles\lc12intoroman.dir/objects.a @CMakeFiles\lc12intoroman.dir\objects1.rsp
+C:\qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\lc12intoroman.dir/objects.a -Wl,--no-whole-archive  -o lc12intoroman.exe -Wl,--out-implib,liblc12intoroman.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\lc12intoroman.dir\linklibs.rsp

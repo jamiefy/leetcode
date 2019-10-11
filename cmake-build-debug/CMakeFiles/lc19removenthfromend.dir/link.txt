@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\lc19removenthfromend.dir/objects.a
+C:\qt\Qt5.12.0\Tools\mingw730_64\bin\ar.exe cr CMakeFiles\lc19removenthfromend.dir/objects.a @CMakeFiles\lc19removenthfromend.dir\objects1.rsp
+C:\qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\lc19removenthfromend.dir/objects.a -Wl,--no-whole-archive  -o lc19removenthfromend.exe -Wl,--out-implib,liblc19removenthfromend.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\lc19removenthfromend.dir\linklibs.rsp
