@@ -24,7 +24,6 @@ D:/leetcode/cmake-build-debug/CMakeFiles/lc26removeduplicates.dir
 D:/leetcode/cmake-build-debug/CMakeFiles/lc27removeElements.dir
 D:/leetcode/cmake-build-debug/CMakeFiles/lc28strStr.dir
 D:/leetcode/cmake-build-debug/CMakeFiles/lc31nextPermutation.dir
-D:/leetcode/cmake-build-debug/CMakeFiles/lc32longestValidParenthes.dir
 D:/leetcode/cmake-build-debug/CMakeFiles/lc33search.dir
 D:/leetcode/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/leetcode/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -79,6 +79,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/lc27removeElements.dir/DependInfo.cmake"
   "CMakeFiles/lc28strStr.dir/DependInfo.cmake"
   "CMakeFiles/lc31nextPermutation.dir/DependInfo.cmake"
-  "CMakeFiles/lc32longestValidParenthes.dir/DependInfo.cmake"
   "CMakeFiles/lc33search.dir/DependInfo.cmake"
   )

@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-D:/leetcode/regularmatch.cpp
+D:/leetcode/reverseint.cpp
 iostream
+-
+vector
+-
+cmath
 -
 

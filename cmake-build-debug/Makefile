@@ -448,19 +448,6 @@ lc31nextPermutation/fast:
 .PHONY : lc31nextPermutation/fast
 
 #=============================================================================
-# Target rules for targets named lc32longestValidParenthes
-
-# Build rule for target.
-lc32longestValidParenthes: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 lc32longestValidParenthes
-.PHONY : lc32longestValidParenthes
-
-# fast build rule for target.
-lc32longestValidParenthes/fast:
-	$(MAKE) -f CMakeFiles\lc32longestValidParenthes.dir\build.make CMakeFiles/lc32longestValidParenthes.dir/build
-.PHONY : lc32longestValidParenthes/fast
-
-#=============================================================================
 # Target rules for targets named lc33search
 
 # Build rule for target.
@@ -742,33 +729,6 @@ lettercombinations.s: lettercombinations.cpp.s
 lettercombinations.cpp.s:
 	$(MAKE) -f CMakeFiles\lc17lettercombinations.dir\build.make CMakeFiles/lc17lettercombinations.dir/lettercombinations.cpp.s
 .PHONY : lettercombinations.cpp.s
-
-longestValidParenthes.obj: longestValidParenthes.cpp.obj
-
-.PHONY : longestValidParenthes.obj
-
-# target to build an object file
-longestValidParenthes.cpp.obj:
-	$(MAKE) -f CMakeFiles\lc32longestValidParenthes.dir\build.make CMakeFiles/lc32longestValidParenthes.dir/longestValidParenthes.cpp.obj
-.PHONY : longestValidParenthes.cpp.obj
-
-longestValidParenthes.i: longestValidParenthes.cpp.i
-
-.PHONY : longestValidParenthes.i
-
-# target to preprocess a source file
-longestValidParenthes.cpp.i:
-	$(MAKE) -f CMakeFiles\lc32longestValidParenthes.dir\build.make CMakeFiles/lc32longestValidParenthes.dir/longestValidParenthes.cpp.i
-.PHONY : longestValidParenthes.cpp.i
-
-longestValidParenthes.s: longestValidParenthes.cpp.s
-
-.PHONY : longestValidParenthes.s
-
-# target to generate assembly for a file
-longestValidParenthes.cpp.s:
-	$(MAKE) -f CMakeFiles\lc32longestValidParenthes.dir\build.make CMakeFiles/lc32longestValidParenthes.dir/longestValidParenthes.cpp.s
-.PHONY : longestValidParenthes.cpp.s
 
 longestcommonprefix.obj: longestcommonprefix.cpp.obj
 
@@ -1288,7 +1248,6 @@ help:
 	@echo ... lc27removeElements
 	@echo ... lc28strStr
 	@echo ... lc31nextPermutation
-	@echo ... lc32longestValidParenthes
 	@echo ... lc33search
 	@echo ... edit_cache
 	@echo ... rebuild_cache
@@ -1322,9 +1281,6 @@ help:
 	@echo ... lettercombinations.obj
 	@echo ... lettercombinations.i
 	@echo ... lettercombinations.s
-	@echo ... longestValidParenthes.obj
-	@echo ... longestValidParenthes.i
-	@echo ... longestValidParenthes.s
 	@echo ... longestcommonprefix.obj
 	@echo ... longestcommonprefix.i
 	@echo ... longestcommonprefix.s

@@ -107,7 +107,7 @@ clean: CMakeFiles/lc10regularmatch.dir/clean
 CMakeFiles/lc34searchRange.dir/all:
 	$(MAKE) -f CMakeFiles\lc34searchRange.dir\build.make CMakeFiles/lc34searchRange.dir/depend
 	$(MAKE) -f CMakeFiles\lc34searchRange.dir\build.make CMakeFiles/lc34searchRange.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\leetcode\cmake-build-debug\CMakeFiles --progress-num=48,49 "Built target lc34searchRange"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\leetcode\cmake-build-debug\CMakeFiles --progress-num=46,47 "Built target lc34searchRange"
 .PHONY : CMakeFiles/lc34searchRange.dir/all
 
 # Include target in all.
@@ -144,7 +144,7 @@ clean: CMakeFiles/lc34searchRange.dir/clean
 CMakeFiles/lc6convertString.dir/all:
 	$(MAKE) -f CMakeFiles\lc6convertString.dir\build.make CMakeFiles/lc6convertString.dir/depend
 	$(MAKE) -f CMakeFiles\lc6convertString.dir\build.make CMakeFiles/lc6convertString.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\leetcode\cmake-build-debug\CMakeFiles --progress-num=50,51 "Built target lc6convertString"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\leetcode\cmake-build-debug\CMakeFiles --progress-num=48,49 "Built target lc6convertString"
 .PHONY : CMakeFiles/lc6convertString.dir/all
 
 # Include target in all.
@@ -218,7 +218,7 @@ clean: CMakeFiles/lc12intoroman.dir/clean
 CMakeFiles/lc7reverseint.dir/all:
 	$(MAKE) -f CMakeFiles\lc7reverseint.dir\build.make CMakeFiles/lc7reverseint.dir/depend
 	$(MAKE) -f CMakeFiles\lc7reverseint.dir\build.make CMakeFiles/lc7reverseint.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\leetcode\cmake-build-debug\CMakeFiles --progress-num=52,53 "Built target lc7reverseint"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\leetcode\cmake-build-debug\CMakeFiles --progress-num=50,51 "Built target lc7reverseint"
 .PHONY : CMakeFiles/lc7reverseint.dir/all
 
 # Include target in all.
@@ -329,7 +329,7 @@ clean: CMakeFiles/lc15threesum.dir/clean
 CMakeFiles/lc8atoi.dir/all:
 	$(MAKE) -f CMakeFiles\lc8atoi.dir\build.make CMakeFiles/lc8atoi.dir/depend
 	$(MAKE) -f CMakeFiles\lc8atoi.dir\build.make CMakeFiles/lc8atoi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\leetcode\cmake-build-debug\CMakeFiles --progress-num=54,55 "Built target lc8atoi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\leetcode\cmake-build-debug\CMakeFiles --progress-num=52,53 "Built target lc8atoi"
 .PHONY : CMakeFiles/lc8atoi.dir/all
 
 # Include target in all.
@@ -440,7 +440,7 @@ clean: CMakeFiles/lc17lettercombinations.dir/clean
 CMakeFiles/lc9ispalindrome.dir/all:
 	$(MAKE) -f CMakeFiles\lc9ispalindrome.dir\build.make CMakeFiles/lc9ispalindrome.dir/depend
 	$(MAKE) -f CMakeFiles\lc9ispalindrome.dir\build.make CMakeFiles/lc9ispalindrome.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\leetcode\cmake-build-debug\CMakeFiles --progress-num=56,57 "Built target lc9ispalindrome"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\leetcode\cmake-build-debug\CMakeFiles --progress-num=54,55 "Built target lc9ispalindrome"
 .PHONY : CMakeFiles/lc9ispalindrome.dir/all
 
 # Include target in all.
@@ -1026,50 +1026,13 @@ clean: CMakeFiles/lc31nextPermutation.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/lc32longestValidParenthes.dir
-
-# All Build rule for target.
-CMakeFiles/lc32longestValidParenthes.dir/all:
-	$(MAKE) -f CMakeFiles\lc32longestValidParenthes.dir\build.make CMakeFiles/lc32longestValidParenthes.dir/depend
-	$(MAKE) -f CMakeFiles\lc32longestValidParenthes.dir\build.make CMakeFiles/lc32longestValidParenthes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\leetcode\cmake-build-debug\CMakeFiles --progress-num=44,45 "Built target lc32longestValidParenthes"
-.PHONY : CMakeFiles/lc32longestValidParenthes.dir/all
-
-# Include target in all.
-all: CMakeFiles/lc32longestValidParenthes.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/lc32longestValidParenthes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\leetcode\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/lc32longestValidParenthes.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\leetcode\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/lc32longestValidParenthes.dir/rule
-
-# Convenience name for target.
-lc32longestValidParenthes: CMakeFiles/lc32longestValidParenthes.dir/rule
-
-.PHONY : lc32longestValidParenthes
-
-# clean rule for target.
-CMakeFiles/lc32longestValidParenthes.dir/clean:
-	$(MAKE) -f CMakeFiles\lc32longestValidParenthes.dir\build.make CMakeFiles/lc32longestValidParenthes.dir/clean
-.PHONY : CMakeFiles/lc32longestValidParenthes.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/lc32longestValidParenthes.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/lc33search.dir
 
 # All Build rule for target.
 CMakeFiles/lc33search.dir/all:
 	$(MAKE) -f CMakeFiles\lc33search.dir\build.make CMakeFiles/lc33search.dir/depend
 	$(MAKE) -f CMakeFiles\lc33search.dir\build.make CMakeFiles/lc33search.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\leetcode\cmake-build-debug\CMakeFiles --progress-num=46,47 "Built target lc33search"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\leetcode\cmake-build-debug\CMakeFiles --progress-num=44,45 "Built target lc33search"
 .PHONY : CMakeFiles/lc33search.dir/all
 
 # Include target in all.
