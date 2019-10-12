@@ -79,7 +79,7 @@ bool isMatchRecursive(std::string s, std::string p) {
 }
 
 
-//自顶向下
+//自顶向下,空间超限 时间超限
 std::shared_ptr<std::vector<std::vector<bool>>> matchVector;
 
 bool dp(int i,int j,std::string s,std::string p){
@@ -101,11 +101,12 @@ bool dp(int i,int j,std::string s,std::string p){
 }
 
 bool isMatchDynamicUpToDown(std::string s, std::string p) {
-    std::vector<bool> vector(p.size()+1, false);
+    std::vector<bool> vector(p.size()+1);
     matchVector=std::make_shared<std::vector<std::vector<bool>>>(s.size()+1,vector);
     return dp(0,0,s,p);
 }
 
+//自底向上
 bool isMatchDynamicDownToUp(std::string s, std::string p) {
     std::vector<bool> vector(p.size()+1);
     std::vector<std::vector<bool>> matchV(s.size()+1,vector);

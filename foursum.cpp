@@ -24,7 +24,7 @@ std::vector<std::vector<int>> fourSum(std::vector<int>& nums, int target) {
                     high--;
                 else {
                     //emplace_back调用形式更加简洁，直接根据参数初始化临时对象的成员，而push_back是压入对象，需要触发拷贝构造和转移构造
-                    //TODO:注意在此处使用ret.emplace_back(nums[curOne], nums[curTwo], nums[low], nums[high])会报错
+                    //TODO:注意在此处使用ret.emplace_back(nums[curOne], nums[curTwo], nums[low], nums[high])会报错,为什么?
                     ret.push_back({nums[curOne], nums[curTwo], nums[low], nums[high]});
                     while (low + 1 < high && nums[low + 1] == nums[low])
                         low++;
