@@ -3,6 +3,7 @@
 //
 #include <iostream>
 #include <vector>
+#include <memory>
 
 //自己的错误解法-蛮力不可行-很多情况不能涵盖
 bool match(std::string s, std::string p) {
@@ -65,26 +66,42 @@ bool match(std::string s, std::string p) {
     else return false;
 }
 
-<<<<<<< HEAD
 bool isMatchRecursive(std::string s, std::string p) {
-    if(p.empty())return s.empty();
-    bool firstMatch=!s.empty()&&(s[0]==p[0]||p[0]=='.');
-    if(p.size()>=2&&p[1]=='*'){
-        return (firstMatch&&isMatchRecursive(s.substr(1),p))||(isMatchRecursive(s,p.substr(2)));
-    } else{
-        return firstMatch&&isMatchRecursive(s.substr(1),p.substr(1));
+    if (p.empty())return s.empty();
+    bool firstMatch = !s.empty() && (s[0] == p[0] || p[0] == '.');
+    if (p.size() >= 2 && p[1] == '*') {
+        return (firstMatch && isMatchRecursive(s.substr(1), p)) || (isMatchRecursive(s, p.substr(2)));
+    } else {
+        return firstMatch && isMatchRecursive(s.substr(1), p.substr(1));
     }
-=======
+
+}
+
+
+//自顶向下
+std::shared_ptr<std::vector<std::vector<bool>>> matchVector;
+
+bool dp(int i,int j,std::string s,std::string p){
+    if(matchVector->at(i).at(j)!= NULL)
+        return matchVector->at(i).at(j);
+    if(j==p.size())
+        matchVector->at(i).at(j)= i==s.size();
+    else{
+        bool firstMatch=i<s.size() && (p[j]==s[i]||p[j]=='.');
+        if(j+1<p.size()&&p[j+1]=='*'){
+            matchVector->at(i).at(j)=dp(i,j+2,s,p)||(firstMatch&&dp(i+1,j,s,p));
+        } else{
+            matchVector->at(i).at(j)=firstMatch&&dp(i+1,j+1,s,p);
+        }
+    }
+    return matchVector->at(i).at(j);
+}
 
 bool isMatchDynamicUpToDown(std::string s, std::string p) {
-    std::vector<std::vector<int>> match;
-    return dp
->>>>>>> ef1d4e96729541efec6abbba573f45b247600a10
+    matchVector->resize(s.size()+1);
+    return dp(0,0,s,p);
 }
 
 int main(){
-    std::cout<<isMatchRecursive("ab",
-                       ".*"
-
-    )<<std::endl;
+    std::cout<<isMatchDynamicUpToDown("ab",".*")<<std::endl;
 }
