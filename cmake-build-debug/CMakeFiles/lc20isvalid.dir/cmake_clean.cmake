@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lc20isvalid.dir/isvalid.cpp.obj"
+  "CMakeFiles/lc20isvalid.dir/isvalid.cpp.o"
+  "lc20isvalid"
   "lc20isvalid.pdb"
-  "lc20isvalid.exe"
-  "lc20isvalid.exe.manifest"
-  "liblc20isvalid.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

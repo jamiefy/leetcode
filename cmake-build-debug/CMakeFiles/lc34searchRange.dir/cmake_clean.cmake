@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lc34searchRange.dir/searchRange.cpp.obj"
+  "CMakeFiles/lc34searchRange.dir/searchRange.cpp.o"
+  "lc34searchRange"
   "lc34searchRange.pdb"
-  "lc34searchRange.exe"
-  "lc34searchRange.exe.manifest"
-  "liblc34searchRange.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

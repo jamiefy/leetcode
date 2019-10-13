@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lc29divide.dir/divide.cpp.obj"
+  "CMakeFiles/lc29divide.dir/divide.cpp.o"
+  "lc29divide"
   "lc29divide.pdb"
-  "lc29divide.exe"
-  "lc29divide.exe.manifest"
-  "liblc29divide.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

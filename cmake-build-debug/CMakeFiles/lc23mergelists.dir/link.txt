@@ -1,3 +1,1 @@
-"C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\lc23mergelists.dir/objects.a
-C:\qt\Qt5.12.0\Tools\mingw730_64\bin\ar.exe cr CMakeFiles\lc23mergelists.dir/objects.a @CMakeFiles\lc23mergelists.dir\objects1.rsp
-C:\qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\lc23mergelists.dir/objects.a -Wl,--no-whole-archive  -o lc23mergelists.exe -Wl,--out-implib,liblc23mergelists.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\lc23mergelists.dir\linklibs.rsp
+/usr/bin/g++  -g   CMakeFiles/lc23mergelists.dir/mergeLists.cpp.o  -o lc23mergelists 

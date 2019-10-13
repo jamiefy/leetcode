@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lc28strStr.dir/strStr.cpp.obj"
+  "CMakeFiles/lc28strStr.dir/strStr.cpp.o"
+  "lc28strStr"
   "lc28strStr.pdb"
-  "lc28strStr.exe"
-  "lc28strStr.exe.manifest"
-  "liblc28strStr.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

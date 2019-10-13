@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lc15threesum.dir/threesum.cpp.obj"
+  "CMakeFiles/lc15threesum.dir/threesum.cpp.o"
+  "lc15threesum"
   "lc15threesum.pdb"
-  "lc15threesum.exe"
-  "lc15threesum.exe.manifest"
-  "liblc15threesum.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

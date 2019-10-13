@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/lc38countandsay.dir/countandsay.cpp.o  -o lc38countandsay 

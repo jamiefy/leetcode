@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lc26removeduplicates.dir/removeDuplicates.cpp.obj"
+  "CMakeFiles/lc26removeduplicates.dir/removeDuplicates.cpp.o"
+  "lc26removeduplicates"
   "lc26removeduplicates.pdb"
-  "lc26removeduplicates.exe"
-  "lc26removeduplicates.exe.manifest"
-  "liblc26removeduplicates.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

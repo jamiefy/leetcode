@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-D:/leetcode/regularmatch.cpp
+/home/anranzhai/CLionProjects/leetcode/regularmatch.cpp
 iostream
 -
 vector

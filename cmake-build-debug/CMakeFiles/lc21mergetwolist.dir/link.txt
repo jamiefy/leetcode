@@ -1,3 +1,1 @@
-"C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\lc21mergetwolist.dir/objects.a
-C:\qt\Qt5.12.0\Tools\mingw730_64\bin\ar.exe cr CMakeFiles\lc21mergetwolist.dir/objects.a @CMakeFiles\lc21mergetwolist.dir\objects1.rsp
-C:\qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\lc21mergetwolist.dir/objects.a -Wl,--no-whole-archive  -o lc21mergetwolist.exe -Wl,--out-implib,liblc21mergetwolist.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\lc21mergetwolist.dir\linklibs.rsp
+/usr/bin/g++  -g   CMakeFiles/lc21mergetwolist.dir/mergetwolist.cpp.o  -o lc21mergetwolist 

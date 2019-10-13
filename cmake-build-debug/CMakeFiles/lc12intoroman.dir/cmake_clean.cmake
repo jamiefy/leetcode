@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lc12intoroman.dir/intoroman.cpp.obj"
+  "CMakeFiles/lc12intoroman.dir/intoroman.cpp.o"
+  "lc12intoroman"
   "lc12intoroman.pdb"
-  "lc12intoroman.exe"
-  "lc12intoroman.exe.manifest"
-  "liblc12intoroman.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

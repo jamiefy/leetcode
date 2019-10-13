@@ -1,3 +1,1 @@
-"C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\lc16threesumclosest.dir/objects.a
-C:\qt\Qt5.12.0\Tools\mingw730_64\bin\ar.exe cr CMakeFiles\lc16threesumclosest.dir/objects.a @CMakeFiles\lc16threesumclosest.dir\objects1.rsp
-C:\qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\lc16threesumclosest.dir/objects.a -Wl,--no-whole-archive  -o lc16threesumclosest.exe -Wl,--out-implib,liblc16threesumclosest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\lc16threesumclosest.dir\linklibs.rsp
+/usr/bin/g++  -g   CMakeFiles/lc16threesumclosest.dir/threesumcloeset.cpp.o  -o lc16threesumclosest 

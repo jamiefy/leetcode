@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lc33search.dir/search.cpp.obj"
+  "CMakeFiles/lc33search.dir/search.cpp.o"
+  "lc33search"
   "lc33search.pdb"
-  "lc33search.exe"
-  "lc33search.exe.manifest"
-  "liblc33search.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

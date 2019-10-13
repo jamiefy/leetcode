@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lc27removeElements.dir/removeElements.cpp.obj"
+  "CMakeFiles/lc27removeElements.dir/removeElements.cpp.o"
+  "lc27removeElements"
   "lc27removeElements.pdb"
-  "lc27removeElements.exe"
-  "lc27removeElements.exe.manifest"
-  "liblc27removeElements.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lc25reversekgroup.dir/reversekgroup.cpp.obj"
+  "CMakeFiles/lc25reversekgroup.dir/reversekgroup.cpp.o"
+  "lc25reversekgroup"
   "lc25reversekgroup.pdb"
-  "lc25reversekgroup.exe"
-  "lc25reversekgroup.exe.manifest"
-  "liblc25reversekgroup.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

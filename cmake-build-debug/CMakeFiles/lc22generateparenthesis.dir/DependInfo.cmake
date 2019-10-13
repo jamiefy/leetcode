@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/leetcode/generateparenthesis.cpp" "D:/leetcode/cmake-build-debug/CMakeFiles/lc22generateparenthesis.dir/generateparenthesis.cpp.obj"
+  "/home/anranzhai/CLionProjects/leetcode/generateparenthesis.cpp" "/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/CMakeFiles/lc22generateparenthesis.dir/generateparenthesis.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

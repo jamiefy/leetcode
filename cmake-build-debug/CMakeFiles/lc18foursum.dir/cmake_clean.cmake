@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lc18foursum.dir/foursum.cpp.obj"
+  "CMakeFiles/lc18foursum.dir/foursum.cpp.o"
+  "lc18foursum"
   "lc18foursum.pdb"
-  "lc18foursum.exe"
-  "lc18foursum.exe.manifest"
-  "liblc18foursum.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

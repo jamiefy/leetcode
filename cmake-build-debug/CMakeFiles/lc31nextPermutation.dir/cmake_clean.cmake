@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lc31nextPermutation.dir/nextPermutation.cpp.obj"
+  "CMakeFiles/lc31nextPermutation.dir/nextPermutation.cpp.o"
+  "lc31nextPermutation"
   "lc31nextPermutation.pdb"
-  "lc31nextPermutation.exe"
-  "lc31nextPermutation.exe.manifest"
-  "liblc31nextPermutation.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

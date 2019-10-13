@@ -8,1255 +8,1412 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc10regularmatch">
-				<Option output="D:/leetcode/cmake-build-debug/lc10regularmatch.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc10regularmatch"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc10regularmatch/fast">
-				<Option output="D:/leetcode/cmake-build-debug/lc10regularmatch.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc10regularmatch/fast"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc34searchRange">
-				<Option output="D:/leetcode/cmake-build-debug/lc34searchRange.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc34searchRange"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc34searchRange/fast">
-				<Option output="D:/leetcode/cmake-build-debug/lc34searchRange.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc34searchRange/fast"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc6convertString">
-				<Option output="D:/leetcode/cmake-build-debug/lc6convertString.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc6convertString"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc6convertString/fast">
-				<Option output="D:/leetcode/cmake-build-debug/lc6convertString.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc6convertString/fast"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc12intoroman">
-				<Option output="D:/leetcode/cmake-build-debug/lc12intoroman.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc12intoroman"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc12intoroman/fast">
-				<Option output="D:/leetcode/cmake-build-debug/lc12intoroman.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc12intoroman/fast"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc7reverseint">
-				<Option output="D:/leetcode/cmake-build-debug/lc7reverseint.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc7reverseint"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc7reverseint/fast">
-				<Option output="D:/leetcode/cmake-build-debug/lc7reverseint.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc7reverseint/fast"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc22generateparenthesis">
-				<Option output="D:/leetcode/cmake-build-debug/lc22generateparenthesis.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc22generateparenthesis"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc22generateparenthesis/fast">
-				<Option output="D:/leetcode/cmake-build-debug/lc22generateparenthesis.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc22generateparenthesis/fast"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc15threesum">
-				<Option output="D:/leetcode/cmake-build-debug/lc15threesum.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc15threesum"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc15threesum/fast">
-				<Option output="D:/leetcode/cmake-build-debug/lc15threesum.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc15threesum/fast"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc8atoi">
-				<Option output="D:/leetcode/cmake-build-debug/lc8atoi.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc8atoi"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc8atoi/fast">
-				<Option output="D:/leetcode/cmake-build-debug/lc8atoi.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc8atoi/fast"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc14longestcommonprefix">
-				<Option output="D:/leetcode/cmake-build-debug/lc14longestcommonprefix.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc14longestcommonprefix"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc14longestcommonprefix/fast">
-				<Option output="D:/leetcode/cmake-build-debug/lc14longestcommonprefix.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc14longestcommonprefix/fast"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc17lettercombinations">
-				<Option output="D:/leetcode/cmake-build-debug/lc17lettercombinations.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc17lettercombinations"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc17lettercombinations/fast">
-				<Option output="D:/leetcode/cmake-build-debug/lc17lettercombinations.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc17lettercombinations/fast"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc9ispalindrome">
-				<Option output="D:/leetcode/cmake-build-debug/lc9ispalindrome.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc9ispalindrome"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc9ispalindrome/fast">
-				<Option output="D:/leetcode/cmake-build-debug/lc9ispalindrome.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc9ispalindrome/fast"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc25reversekgroup">
-				<Option output="D:/leetcode/cmake-build-debug/lc25reversekgroup.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc25reversekgroup"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc25reversekgroup/fast">
-				<Option output="D:/leetcode/cmake-build-debug/lc25reversekgroup.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc25reversekgroup/fast"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc11maxarea">
-				<Option output="D:/leetcode/cmake-build-debug/lc11maxarea.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc11maxarea"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc11maxarea/fast">
-				<Option output="D:/leetcode/cmake-build-debug/lc11maxarea.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc11maxarea/fast"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc30findSubstring">
-				<Option output="D:/leetcode/cmake-build-debug/lc30findSubstring.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc30findSubstring"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc30findSubstring/fast">
-				<Option output="D:/leetcode/cmake-build-debug/lc30findSubstring.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc30findSubstring/fast"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc16threesumclosest">
-				<Option output="D:/leetcode/cmake-build-debug/lc16threesumclosest.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc16threesumclosest"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc16threesumclosest/fast">
-				<Option output="D:/leetcode/cmake-build-debug/lc16threesumclosest.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc16threesumclosest/fast"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc18foursum">
-				<Option output="D:/leetcode/cmake-build-debug/lc18foursum.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc18foursum"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc18foursum/fast">
-				<Option output="D:/leetcode/cmake-build-debug/lc18foursum.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc18foursum/fast"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc19removenthfromend">
-				<Option output="D:/leetcode/cmake-build-debug/lc19removenthfromend.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc19removenthfromend"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc19removenthfromend/fast">
-				<Option output="D:/leetcode/cmake-build-debug/lc19removenthfromend.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc19removenthfromend/fast"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc29divide">
-				<Option output="D:/leetcode/cmake-build-debug/lc29divide.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc29divide"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc29divide/fast">
-				<Option output="D:/leetcode/cmake-build-debug/lc29divide.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc29divide/fast"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc20isvalid">
-				<Option output="D:/leetcode/cmake-build-debug/lc20isvalid.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc20isvalid"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc20isvalid/fast">
-				<Option output="D:/leetcode/cmake-build-debug/lc20isvalid.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc20isvalid/fast"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc21mergetwolist">
-				<Option output="D:/leetcode/cmake-build-debug/lc21mergetwolist.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc21mergetwolist"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc21mergetwolist/fast">
-				<Option output="D:/leetcode/cmake-build-debug/lc21mergetwolist.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc21mergetwolist/fast"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc23mergelists">
-				<Option output="D:/leetcode/cmake-build-debug/lc23mergelists.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc23mergelists"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc23mergelists/fast">
-				<Option output="D:/leetcode/cmake-build-debug/lc23mergelists.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc23mergelists/fast"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc24swappairs">
-				<Option output="D:/leetcode/cmake-build-debug/lc24swappairs.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc24swappairs"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc24swappairs/fast">
-				<Option output="D:/leetcode/cmake-build-debug/lc24swappairs.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc24swappairs/fast"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc26removeduplicates">
-				<Option output="D:/leetcode/cmake-build-debug/lc26removeduplicates.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc26removeduplicates"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc26removeduplicates/fast">
-				<Option output="D:/leetcode/cmake-build-debug/lc26removeduplicates.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc26removeduplicates/fast"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc27removeElements">
-				<Option output="D:/leetcode/cmake-build-debug/lc27removeElements.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc27removeElements"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc27removeElements/fast">
-				<Option output="D:/leetcode/cmake-build-debug/lc27removeElements.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc27removeElements/fast"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc28strStr">
-				<Option output="D:/leetcode/cmake-build-debug/lc28strStr.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc28strStr"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc28strStr/fast">
-				<Option output="D:/leetcode/cmake-build-debug/lc28strStr.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc28strStr/fast"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc31nextPermutation">
-				<Option output="D:/leetcode/cmake-build-debug/lc31nextPermutation.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc31nextPermutation"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc31nextPermutation/fast">
-				<Option output="D:/leetcode/cmake-build-debug/lc31nextPermutation.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc31nextPermutation/fast"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc33search">
-				<Option output="D:/leetcode/cmake-build-debug/lc33search.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc33search"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lc33search/fast">
-				<Option output="D:/leetcode/cmake-build-debug/lc33search.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc33search/fast"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc38countandsay">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc38countandsay" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc38countandsay"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc38countandsay/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc38countandsay" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc38countandsay/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc33search">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc33search" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc33search"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc33search/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc33search" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc33search/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc31nextPermutation">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc31nextPermutation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc31nextPermutation"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc31nextPermutation/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc31nextPermutation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc31nextPermutation/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc30findSubstring">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc30findSubstring" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc30findSubstring"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc30findSubstring/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc30findSubstring" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc30findSubstring/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc26removeduplicates">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc26removeduplicates" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc26removeduplicates"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc26removeduplicates/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc26removeduplicates" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc26removeduplicates/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc25reversekgroup">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc25reversekgroup" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc25reversekgroup"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc25reversekgroup/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc25reversekgroup" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc25reversekgroup/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc23mergelists">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc23mergelists" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc23mergelists"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc23mergelists/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc23mergelists" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc23mergelists/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc34searchRange">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc34searchRange" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc34searchRange"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc34searchRange/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc34searchRange" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc34searchRange/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc11maxarea">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc11maxarea" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc11maxarea"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc11maxarea/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc11maxarea" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc11maxarea/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc29divide">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc29divide" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc29divide"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc29divide/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc29divide" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc29divide/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc15threesum">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc15threesum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc15threesum"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc15threesum/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc15threesum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc15threesum/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc16threesumclosest">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc16threesumclosest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc16threesumclosest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc16threesumclosest/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc16threesumclosest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc16threesumclosest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc9ispalindrome">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc9ispalindrome" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc9ispalindrome"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc9ispalindrome/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc9ispalindrome" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc9ispalindrome/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc10regularmatch">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc10regularmatch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc10regularmatch"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc10regularmatch/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc10regularmatch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc10regularmatch/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc8atoi">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc8atoi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc8atoi"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc8atoi/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc8atoi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc8atoi/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc24swappairs">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc24swappairs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc24swappairs"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc24swappairs/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc24swappairs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc24swappairs/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc6convertString">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc6convertString" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc6convertString"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc6convertString/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc6convertString" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc6convertString/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc20isvalid">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc20isvalid" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc20isvalid"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc20isvalid/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc20isvalid" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc20isvalid/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc7reverseint">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc7reverseint" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc7reverseint"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc7reverseint/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc7reverseint" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc7reverseint/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc27removeElements">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc27removeElements" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc27removeElements"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc27removeElements/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc27removeElements" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc27removeElements/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc14longestcommonprefix">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc14longestcommonprefix" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc14longestcommonprefix"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc14longestcommonprefix/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc14longestcommonprefix" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc14longestcommonprefix/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/leetcode/cmake-build-debug"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc12intoroman">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc12intoroman" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc12intoroman"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc12intoroman/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc12intoroman" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc12intoroman/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc18foursum">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc18foursum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc18foursum"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc18foursum/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc18foursum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc18foursum/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc28strStr">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc28strStr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc28strStr"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc28strStr/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc28strStr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc28strStr/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc19removenthfromend">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc19removenthfromend" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc19removenthfromend"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc19removenthfromend/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc19removenthfromend" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc19removenthfromend/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc17lettercombinations">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc17lettercombinations" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc17lettercombinations"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc17lettercombinations/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc17lettercombinations" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc17lettercombinations/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc21mergetwolist">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc21mergetwolist" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc21mergetwolist"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc21mergetwolist/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc21mergetwolist" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc21mergetwolist/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc22generateparenthesis">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc22generateparenthesis" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc22generateparenthesis"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc22generateparenthesis/fast">
+				<Option output="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/lc22generateparenthesis" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anranzhai/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc22generateparenthesis/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/leetcode/atoi.cpp">
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/atoi.cpp">
 			<Option target="lc8atoi"/>
 		</Unit>
-		<Unit filename="D:/leetcode/convertString.cpp">
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/convertString.cpp">
 			<Option target="lc6convertString"/>
 		</Unit>
-		<Unit filename="D:/leetcode/divide.cpp">
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/countandsay.cpp">
+			<Option target="lc38countandsay"/>
+		</Unit>
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/divide.cpp">
 			<Option target="lc29divide"/>
 		</Unit>
-		<Unit filename="D:/leetcode/findSubstring.cpp">
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/findSubstring.cpp">
 			<Option target="lc30findSubstring"/>
 		</Unit>
-		<Unit filename="D:/leetcode/foursum.cpp">
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/foursum.cpp">
 			<Option target="lc18foursum"/>
 		</Unit>
-		<Unit filename="D:/leetcode/generateparenthesis.cpp">
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/generateparenthesis.cpp">
 			<Option target="lc22generateparenthesis"/>
 		</Unit>
-		<Unit filename="D:/leetcode/intoroman.cpp">
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/intoroman.cpp">
 			<Option target="lc12intoroman"/>
 		</Unit>
-		<Unit filename="D:/leetcode/isPalindrome.cpp">
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/isPalindrome.cpp">
 			<Option target="lc9ispalindrome"/>
 		</Unit>
-		<Unit filename="D:/leetcode/isvalid.cpp">
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/isvalid.cpp">
 			<Option target="lc20isvalid"/>
 		</Unit>
-		<Unit filename="D:/leetcode/lettercombinations.cpp">
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/lettercombinations.cpp">
 			<Option target="lc17lettercombinations"/>
 		</Unit>
-		<Unit filename="D:/leetcode/longestcommonprefix.cpp">
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/longestcommonprefix.cpp">
 			<Option target="lc14longestcommonprefix"/>
 		</Unit>
-		<Unit filename="D:/leetcode/maxarea.cpp">
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/maxarea.cpp">
 			<Option target="lc11maxarea"/>
 		</Unit>
-		<Unit filename="D:/leetcode/mergeLists.cpp">
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/mergeLists.cpp">
 			<Option target="lc23mergelists"/>
 		</Unit>
-		<Unit filename="D:/leetcode/mergetwolist.cpp">
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/mergetwolist.cpp">
 			<Option target="lc21mergetwolist"/>
 		</Unit>
-		<Unit filename="D:/leetcode/nextPermutation.cpp">
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/nextPermutation.cpp">
 			<Option target="lc31nextPermutation"/>
 		</Unit>
-		<Unit filename="D:/leetcode/regularmatch.cpp">
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/regularmatch.cpp">
 			<Option target="lc10regularmatch"/>
 		</Unit>
-		<Unit filename="D:/leetcode/removeDuplicates.cpp">
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/removeDuplicates.cpp">
 			<Option target="lc26removeduplicates"/>
 		</Unit>
-		<Unit filename="D:/leetcode/removeElements.cpp">
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/removeElements.cpp">
 			<Option target="lc27removeElements"/>
 		</Unit>
-		<Unit filename="D:/leetcode/removenthfromend.cpp">
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/removenthfromend.cpp">
 			<Option target="lc19removenthfromend"/>
 		</Unit>
-		<Unit filename="D:/leetcode/reverseint.cpp">
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/reverseint.cpp">
 			<Option target="lc7reverseint"/>
 		</Unit>
-		<Unit filename="D:/leetcode/reversekgroup.cpp">
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/reversekgroup.cpp">
 			<Option target="lc25reversekgroup"/>
 		</Unit>
-		<Unit filename="D:/leetcode/search.cpp">
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/search.cpp">
 			<Option target="lc33search"/>
 		</Unit>
-		<Unit filename="D:/leetcode/searchInsert.cpp">
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/searchInsert.cpp">
 			<Option target="lc10regularmatch"/>
 		</Unit>
-		<Unit filename="D:/leetcode/searchRange.cpp">
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/searchRange.cpp">
 			<Option target="lc34searchRange"/>
 		</Unit>
-		<Unit filename="D:/leetcode/strStr.cpp">
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/strStr.cpp">
 			<Option target="lc28strStr"/>
 		</Unit>
-		<Unit filename="D:/leetcode/swappairs.cpp">
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/swappairs.cpp">
 			<Option target="lc24swappairs"/>
 		</Unit>
-		<Unit filename="D:/leetcode/threesum.cpp">
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/threesum.cpp">
 			<Option target="lc15threesum"/>
 		</Unit>
-		<Unit filename="D:/leetcode/threesumcloeset.cpp">
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/threesumcloeset.cpp">
 			<Option target="lc16threesumclosest"/>
 		</Unit>
-		<Unit filename="D:/leetcode/CMakeLists.txt">
+		<Unit filename="/home/anranzhai/CLionProjects/leetcode/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

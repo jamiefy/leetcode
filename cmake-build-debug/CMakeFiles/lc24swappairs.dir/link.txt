@@ -1,3 +1,1 @@
-"C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\lc24swappairs.dir/objects.a
-C:\qt\Qt5.12.0\Tools\mingw730_64\bin\ar.exe cr CMakeFiles\lc24swappairs.dir/objects.a @CMakeFiles\lc24swappairs.dir\objects1.rsp
-C:\qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\lc24swappairs.dir/objects.a -Wl,--no-whole-archive  -o lc24swappairs.exe -Wl,--out-implib,liblc24swappairs.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\lc24swappairs.dir\linklibs.rsp
+/usr/bin/g++  -g   CMakeFiles/lc24swappairs.dir/swappairs.cpp.o  -o lc24swappairs 

@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lc10regularmatch.dir/regularmatch.cpp.obj"
-  "CMakeFiles/lc10regularmatch.dir/searchInsert.cpp.obj"
+  "CMakeFiles/lc10regularmatch.dir/regularmatch.cpp.o"
+  "CMakeFiles/lc10regularmatch.dir/searchInsert.cpp.o"
+  "lc10regularmatch"
   "lc10regularmatch.pdb"
-  "lc10regularmatch.exe"
-  "lc10regularmatch.exe.manifest"
-  "liblc10regularmatch.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

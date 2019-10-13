@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lc19removenthfromend.dir/removenthfromend.cpp.obj"
+  "CMakeFiles/lc19removenthfromend.dir/removenthfromend.cpp.o"
+  "lc19removenthfromend"
   "lc19removenthfromend.pdb"
-  "lc19removenthfromend.exe"
-  "lc19removenthfromend.exe.manifest"
-  "liblc19removenthfromend.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

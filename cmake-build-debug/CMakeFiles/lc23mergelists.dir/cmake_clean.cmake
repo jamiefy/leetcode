@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lc23mergelists.dir/mergeLists.cpp.obj"
+  "CMakeFiles/lc23mergelists.dir/mergeLists.cpp.o"
+  "lc23mergelists"
   "lc23mergelists.pdb"
-  "lc23mergelists.exe"
-  "lc23mergelists.exe.manifest"
-  "liblc23mergelists.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

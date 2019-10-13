@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lc17lettercombinations.dir/lettercombinations.cpp.obj"
+  "CMakeFiles/lc17lettercombinations.dir/lettercombinations.cpp.o"
+  "lc17lettercombinations"
   "lc17lettercombinations.pdb"
-  "lc17lettercombinations.exe"
-  "lc17lettercombinations.exe.manifest"
-  "liblc17lettercombinations.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

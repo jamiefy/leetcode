@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/leetcode/regularmatch.cpp" "D:/leetcode/cmake-build-debug/CMakeFiles/lc10regularmatch.dir/regularmatch.cpp.obj"
-  "D:/leetcode/searchInsert.cpp" "D:/leetcode/cmake-build-debug/CMakeFiles/lc10regularmatch.dir/searchInsert.cpp.obj"
+  "/home/anranzhai/CLionProjects/leetcode/regularmatch.cpp" "/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/CMakeFiles/lc10regularmatch.dir/regularmatch.cpp.o"
+  "/home/anranzhai/CLionProjects/leetcode/searchInsert.cpp" "/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/CMakeFiles/lc10regularmatch.dir/searchInsert.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

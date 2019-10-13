@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lc7reverseint.dir/reverseint.cpp.obj"
+  "CMakeFiles/lc7reverseint.dir/reverseint.cpp.o"
+  "lc7reverseint"
   "lc7reverseint.pdb"
-  "lc7reverseint.exe"
-  "lc7reverseint.exe.manifest"
-  "liblc7reverseint.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

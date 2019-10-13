@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lc8atoi.dir/atoi.cpp.obj"
+  "CMakeFiles/lc8atoi.dir/atoi.cpp.o"
+  "lc8atoi"
   "lc8atoi.pdb"
-  "lc8atoi.exe"
-  "lc8atoi.exe.manifest"
-  "liblc8atoi.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

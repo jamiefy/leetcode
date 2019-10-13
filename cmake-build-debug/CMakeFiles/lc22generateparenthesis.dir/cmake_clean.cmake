@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lc22generateparenthesis.dir/generateparenthesis.cpp.obj"
+  "CMakeFiles/lc22generateparenthesis.dir/generateparenthesis.cpp.o"
+  "lc22generateparenthesis"
   "lc22generateparenthesis.pdb"
-  "lc22generateparenthesis.exe"
-  "lc22generateparenthesis.exe.manifest"
-  "liblc22generateparenthesis.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

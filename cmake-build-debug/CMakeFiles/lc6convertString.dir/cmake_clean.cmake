@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lc6convertString.dir/convertString.cpp.obj"
+  "CMakeFiles/lc6convertString.dir/convertString.cpp.o"
+  "lc6convertString"
   "lc6convertString.pdb"
-  "lc6convertString.exe"
-  "lc6convertString.exe.manifest"
-  "liblc6convertString.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

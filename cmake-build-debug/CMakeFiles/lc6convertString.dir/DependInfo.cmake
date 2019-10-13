@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/leetcode/convertString.cpp" "D:/leetcode/cmake-build-debug/CMakeFiles/lc6convertString.dir/convertString.cpp.obj"
+  "/home/anranzhai/CLionProjects/leetcode/convertString.cpp" "/home/anranzhai/CLionProjects/leetcode/cmake-build-debug/CMakeFiles/lc6convertString.dir/convertString.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
