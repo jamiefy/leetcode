@@ -3,6 +3,8 @@ project(leetcode)
 
 set(CMAKE_CXX_STANDARD 14)
 
+
+add_executable(lc4findmediansorted findmediansorted.cpp)
 add_executable(lc6convertString convertString.cpp)
 add_executable(lc7reverseint reverseint.cpp)
 add_executable(lc8atoi atoi.cpp)
@@ -31,3 +33,4 @@ add_executable(lc31nextPermutation nextPermutation.cpp)
 add_executable(lc33search search.cpp)
 add_executable(lc34searchRange searchRange.cpp)
 add_executable(lc38countandsay countandsay.cpp)
+add_executable(lc46permute permute.cpp)

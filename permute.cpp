@@ -1,0 +1,75 @@
+//
+// Created by anranzhai on 2019/10/15.
+//
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+std::vector<std::vector<int>> ret;
+//使用递归把第一位分别压入nums的每一个int值,然后第二位分别压入除第一位外的其他值
+//n*(n-1)*(n-2)*...*1当nums为空时完成一个vector
+void recur(std::vector<int>& nums,std::vector<int> &num){//&减少时间和内存消耗
+    if(nums.size()==0){
+        ret.emplace_back(num);
+        return;
+    }
+    for(auto it=nums.begin();it!=nums.end();it++){
+        //在num尾部构造该值,使下层压入的vector中包括该值
+        num.emplace_back(*it);
+        //擦除nums中该值,使下层压入的值中不包括已经压入的值
+        nums.erase(it);
+        //进入下一层
+        recur(nums,num);
+        //在nums的it位置前插入刚刚删除的值,从而使下一个值压入的过程中还是在
+        // 原nums的基础上,不然下一个值压入后传入下层的nums中缺少当前值
+        nums.insert(it,*num.rbegin());
+        //弹出num尾部新构造的值,从而使下一个值压入时前缀不改变
+        // 使用clear,会删除上一层的
+        num.pop_back();
+    }
+}
+
+std::vector<std::vector<int>> permute(std::vector<int>& nums) {
+    if(nums.size()==0)
+        return ret;
+    std::vector<int> num;
+    recur(nums,num);
+    return ret;
+}
+
+
+//传递空td::vector<std::vector<int>>& ,比定义一个全局td::vector<std::vector<int>>消耗更少的时间和空间
+//使用交换法在原vector的基础上直接更改,用index记录更改到的位置,省去了上面方法中的一些数组操作
+void backtTracking(std::vector<int> &nums,int index,std::vector<std::vector<int>>& ret){
+    if(index==nums.size()){
+        ret.emplace_back(nums);
+        return;
+    }
+    for(int i=index;i<nums.size();i++){
+        //前缀保持不变,从index开始与后面的值依次交换位置
+        std::swap(nums[index],nums[i]);
+        //完成index位,进入下一层处理下一位
+        backtTracking(nums,index+1,ret);
+        //再交换回来保持下一个值与index交换时仍在一开始传入函数的参数的基础上
+        std::swap(nums[index],nums[i]);
+    }
+}
+
+std::vector<std::vector<int>> permuteBack(std::vector<int>& nums) {
+    std::vector<std::vector<int>> ret;
+    if(nums.size()==0)
+        return ret;
+    backtTracking(nums,0,ret);
+    return ret;
+}
+
+int main(){
+    std::vector<int> nums{1,2,3};
+    permuteBack(nums);
+    for(int i=0;i<ret.size();i++){
+        for(int j=0;j<ret[i].size();j++){
+            std::cout<<ret[i][j]<<" ";
+        }
+        std::cout<<std::endl;
+    }
+}
