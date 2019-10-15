@@ -202,69 +202,17 @@ lc23mergelists/fast:
 .PHONY : lc23mergelists/fast
 
 #=============================================================================
-# Target rules for targets named lc34searchRange
+# Target rules for targets named lc22generateparenthesis
 
 # Build rule for target.
-lc34searchRange: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lc34searchRange
-.PHONY : lc34searchRange
+lc22generateparenthesis: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lc22generateparenthesis
+.PHONY : lc22generateparenthesis
 
 # fast build rule for target.
-lc34searchRange/fast:
-	$(MAKE) -f CMakeFiles/lc34searchRange.dir/build.make CMakeFiles/lc34searchRange.dir/build
-.PHONY : lc34searchRange/fast
-
-#=============================================================================
-# Target rules for targets named lc11maxarea
-
-# Build rule for target.
-lc11maxarea: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lc11maxarea
-.PHONY : lc11maxarea
-
-# fast build rule for target.
-lc11maxarea/fast:
-	$(MAKE) -f CMakeFiles/lc11maxarea.dir/build.make CMakeFiles/lc11maxarea.dir/build
-.PHONY : lc11maxarea/fast
-
-#=============================================================================
-# Target rules for targets named lc29divide
-
-# Build rule for target.
-lc29divide: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lc29divide
-.PHONY : lc29divide
-
-# fast build rule for target.
-lc29divide/fast:
-	$(MAKE) -f CMakeFiles/lc29divide.dir/build.make CMakeFiles/lc29divide.dir/build
-.PHONY : lc29divide/fast
-
-#=============================================================================
-# Target rules for targets named lc15threesum
-
-# Build rule for target.
-lc15threesum: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lc15threesum
-.PHONY : lc15threesum
-
-# fast build rule for target.
-lc15threesum/fast:
-	$(MAKE) -f CMakeFiles/lc15threesum.dir/build.make CMakeFiles/lc15threesum.dir/build
-.PHONY : lc15threesum/fast
-
-#=============================================================================
-# Target rules for targets named lc16threesumclosest
-
-# Build rule for target.
-lc16threesumclosest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lc16threesumclosest
-.PHONY : lc16threesumclosest
-
-# fast build rule for target.
-lc16threesumclosest/fast:
-	$(MAKE) -f CMakeFiles/lc16threesumclosest.dir/build.make CMakeFiles/lc16threesumclosest.dir/build
-.PHONY : lc16threesumclosest/fast
+lc22generateparenthesis/fast:
+	$(MAKE) -f CMakeFiles/lc22generateparenthesis.dir/build.make CMakeFiles/lc22generateparenthesis.dir/build
+.PHONY : lc22generateparenthesis/fast
 
 #=============================================================================
 # Target rules for targets named lc9ispalindrome
@@ -291,6 +239,45 @@ lc10regularmatch: cmake_check_build_system
 lc10regularmatch/fast:
 	$(MAKE) -f CMakeFiles/lc10regularmatch.dir/build.make CMakeFiles/lc10regularmatch.dir/build
 .PHONY : lc10regularmatch/fast
+
+#=============================================================================
+# Target rules for targets named lc7reverseint
+
+# Build rule for target.
+lc7reverseint: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lc7reverseint
+.PHONY : lc7reverseint
+
+# fast build rule for target.
+lc7reverseint/fast:
+	$(MAKE) -f CMakeFiles/lc7reverseint.dir/build.make CMakeFiles/lc7reverseint.dir/build
+.PHONY : lc7reverseint/fast
+
+#=============================================================================
+# Target rules for targets named lc27removeElements
+
+# Build rule for target.
+lc27removeElements: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lc27removeElements
+.PHONY : lc27removeElements
+
+# fast build rule for target.
+lc27removeElements/fast:
+	$(MAKE) -f CMakeFiles/lc27removeElements.dir/build.make CMakeFiles/lc27removeElements.dir/build
+.PHONY : lc27removeElements/fast
+
+#=============================================================================
+# Target rules for targets named lc14longestcommonprefix
+
+# Build rule for target.
+lc14longestcommonprefix: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lc14longestcommonprefix
+.PHONY : lc14longestcommonprefix
+
+# fast build rule for target.
+lc14longestcommonprefix/fast:
+	$(MAKE) -f CMakeFiles/lc14longestcommonprefix.dir/build.make CMakeFiles/lc14longestcommonprefix.dir/build
+.PHONY : lc14longestcommonprefix/fast
 
 #=============================================================================
 # Target rules for targets named lc8atoi
@@ -345,43 +332,95 @@ lc20isvalid/fast:
 .PHONY : lc20isvalid/fast
 
 #=============================================================================
-# Target rules for targets named lc7reverseint
+# Target rules for targets named lc34searchRange
 
 # Build rule for target.
-lc7reverseint: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lc7reverseint
-.PHONY : lc7reverseint
+lc34searchRange: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lc34searchRange
+.PHONY : lc34searchRange
 
 # fast build rule for target.
-lc7reverseint/fast:
-	$(MAKE) -f CMakeFiles/lc7reverseint.dir/build.make CMakeFiles/lc7reverseint.dir/build
-.PHONY : lc7reverseint/fast
+lc34searchRange/fast:
+	$(MAKE) -f CMakeFiles/lc34searchRange.dir/build.make CMakeFiles/lc34searchRange.dir/build
+.PHONY : lc34searchRange/fast
 
 #=============================================================================
-# Target rules for targets named lc27removeElements
+# Target rules for targets named lc11maxarea
 
 # Build rule for target.
-lc27removeElements: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lc27removeElements
-.PHONY : lc27removeElements
+lc11maxarea: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lc11maxarea
+.PHONY : lc11maxarea
 
 # fast build rule for target.
-lc27removeElements/fast:
-	$(MAKE) -f CMakeFiles/lc27removeElements.dir/build.make CMakeFiles/lc27removeElements.dir/build
-.PHONY : lc27removeElements/fast
+lc11maxarea/fast:
+	$(MAKE) -f CMakeFiles/lc11maxarea.dir/build.make CMakeFiles/lc11maxarea.dir/build
+.PHONY : lc11maxarea/fast
 
 #=============================================================================
-# Target rules for targets named lc14longestcommonprefix
+# Target rules for targets named lc29divide
 
 # Build rule for target.
-lc14longestcommonprefix: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lc14longestcommonprefix
-.PHONY : lc14longestcommonprefix
+lc29divide: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lc29divide
+.PHONY : lc29divide
 
 # fast build rule for target.
-lc14longestcommonprefix/fast:
-	$(MAKE) -f CMakeFiles/lc14longestcommonprefix.dir/build.make CMakeFiles/lc14longestcommonprefix.dir/build
-.PHONY : lc14longestcommonprefix/fast
+lc29divide/fast:
+	$(MAKE) -f CMakeFiles/lc29divide.dir/build.make CMakeFiles/lc29divide.dir/build
+.PHONY : lc29divide/fast
+
+#=============================================================================
+# Target rules for targets named lc4findmediansorted
+
+# Build rule for target.
+lc4findmediansorted: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lc4findmediansorted
+.PHONY : lc4findmediansorted
+
+# fast build rule for target.
+lc4findmediansorted/fast:
+	$(MAKE) -f CMakeFiles/lc4findmediansorted.dir/build.make CMakeFiles/lc4findmediansorted.dir/build
+.PHONY : lc4findmediansorted/fast
+
+#=============================================================================
+# Target rules for targets named lc15threesum
+
+# Build rule for target.
+lc15threesum: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lc15threesum
+.PHONY : lc15threesum
+
+# fast build rule for target.
+lc15threesum/fast:
+	$(MAKE) -f CMakeFiles/lc15threesum.dir/build.make CMakeFiles/lc15threesum.dir/build
+.PHONY : lc15threesum/fast
+
+#=============================================================================
+# Target rules for targets named lc46permute
+
+# Build rule for target.
+lc46permute: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lc46permute
+.PHONY : lc46permute
+
+# fast build rule for target.
+lc46permute/fast:
+	$(MAKE) -f CMakeFiles/lc46permute.dir/build.make CMakeFiles/lc46permute.dir/build
+.PHONY : lc46permute/fast
+
+#=============================================================================
+# Target rules for targets named lc16threesumclosest
+
+# Build rule for target.
+lc16threesumclosest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lc16threesumclosest
+.PHONY : lc16threesumclosest
+
+# fast build rule for target.
+lc16threesumclosest/fast:
+	$(MAKE) -f CMakeFiles/lc16threesumclosest.dir/build.make CMakeFiles/lc16threesumclosest.dir/build
+.PHONY : lc16threesumclosest/fast
 
 #=============================================================================
 # Target rules for targets named lc12intoroman
@@ -460,19 +499,6 @@ lc21mergetwolist: cmake_check_build_system
 lc21mergetwolist/fast:
 	$(MAKE) -f CMakeFiles/lc21mergetwolist.dir/build.make CMakeFiles/lc21mergetwolist.dir/build
 .PHONY : lc21mergetwolist/fast
-
-#=============================================================================
-# Target rules for targets named lc22generateparenthesis
-
-# Build rule for target.
-lc22generateparenthesis: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lc22generateparenthesis
-.PHONY : lc22generateparenthesis
-
-# fast build rule for target.
-lc22generateparenthesis/fast:
-	$(MAKE) -f CMakeFiles/lc22generateparenthesis.dir/build.make CMakeFiles/lc22generateparenthesis.dir/build
-.PHONY : lc22generateparenthesis/fast
 
 atoi.o: atoi.cpp.o
 
@@ -608,6 +634,33 @@ findSubstring.s: findSubstring.cpp.s
 findSubstring.cpp.s:
 	$(MAKE) -f CMakeFiles/lc30findSubstring.dir/build.make CMakeFiles/lc30findSubstring.dir/findSubstring.cpp.s
 .PHONY : findSubstring.cpp.s
+
+findmediansorted.o: findmediansorted.cpp.o
+
+.PHONY : findmediansorted.o
+
+# target to build an object file
+findmediansorted.cpp.o:
+	$(MAKE) -f CMakeFiles/lc4findmediansorted.dir/build.make CMakeFiles/lc4findmediansorted.dir/findmediansorted.cpp.o
+.PHONY : findmediansorted.cpp.o
+
+findmediansorted.i: findmediansorted.cpp.i
+
+.PHONY : findmediansorted.i
+
+# target to preprocess a source file
+findmediansorted.cpp.i:
+	$(MAKE) -f CMakeFiles/lc4findmediansorted.dir/build.make CMakeFiles/lc4findmediansorted.dir/findmediansorted.cpp.i
+.PHONY : findmediansorted.cpp.i
+
+findmediansorted.s: findmediansorted.cpp.s
+
+.PHONY : findmediansorted.s
+
+# target to generate assembly for a file
+findmediansorted.cpp.s:
+	$(MAKE) -f CMakeFiles/lc4findmediansorted.dir/build.make CMakeFiles/lc4findmediansorted.dir/findmediansorted.cpp.s
+.PHONY : findmediansorted.cpp.s
 
 foursum.o: foursum.cpp.o
 
@@ -905,6 +958,33 @@ nextPermutation.s: nextPermutation.cpp.s
 nextPermutation.cpp.s:
 	$(MAKE) -f CMakeFiles/lc31nextPermutation.dir/build.make CMakeFiles/lc31nextPermutation.dir/nextPermutation.cpp.s
 .PHONY : nextPermutation.cpp.s
+
+permute.o: permute.cpp.o
+
+.PHONY : permute.o
+
+# target to build an object file
+permute.cpp.o:
+	$(MAKE) -f CMakeFiles/lc46permute.dir/build.make CMakeFiles/lc46permute.dir/permute.cpp.o
+.PHONY : permute.cpp.o
+
+permute.i: permute.cpp.i
+
+.PHONY : permute.i
+
+# target to preprocess a source file
+permute.cpp.i:
+	$(MAKE) -f CMakeFiles/lc46permute.dir/build.make CMakeFiles/lc46permute.dir/permute.cpp.i
+.PHONY : permute.cpp.i
+
+permute.s: permute.cpp.s
+
+.PHONY : permute.s
+
+# target to generate assembly for a file
+permute.cpp.s:
+	$(MAKE) -f CMakeFiles/lc46permute.dir/build.make CMakeFiles/lc46permute.dir/permute.cpp.s
+.PHONY : permute.cpp.s
 
 regularmatch.o: regularmatch.cpp.o
 
@@ -1271,20 +1351,23 @@ help:
 	@echo "... lc26removeduplicates"
 	@echo "... lc25reversekgroup"
 	@echo "... lc23mergelists"
-	@echo "... lc34searchRange"
-	@echo "... lc11maxarea"
-	@echo "... lc29divide"
-	@echo "... lc15threesum"
-	@echo "... lc16threesumclosest"
+	@echo "... lc22generateparenthesis"
 	@echo "... lc9ispalindrome"
 	@echo "... lc10regularmatch"
+	@echo "... lc7reverseint"
+	@echo "... lc27removeElements"
+	@echo "... lc14longestcommonprefix"
 	@echo "... lc8atoi"
 	@echo "... lc24swappairs"
 	@echo "... lc6convertString"
 	@echo "... lc20isvalid"
-	@echo "... lc7reverseint"
-	@echo "... lc27removeElements"
-	@echo "... lc14longestcommonprefix"
+	@echo "... lc34searchRange"
+	@echo "... lc11maxarea"
+	@echo "... lc29divide"
+	@echo "... lc4findmediansorted"
+	@echo "... lc15threesum"
+	@echo "... lc46permute"
+	@echo "... lc16threesumclosest"
 	@echo "... rebuild_cache"
 	@echo "... lc12intoroman"
 	@echo "... lc18foursum"
@@ -1292,7 +1375,6 @@ help:
 	@echo "... lc19removenthfromend"
 	@echo "... lc17lettercombinations"
 	@echo "... lc21mergetwolist"
-	@echo "... lc22generateparenthesis"
 	@echo "... atoi.o"
 	@echo "... atoi.i"
 	@echo "... atoi.s"
@@ -1308,6 +1390,9 @@ help:
 	@echo "... findSubstring.o"
 	@echo "... findSubstring.i"
 	@echo "... findSubstring.s"
+	@echo "... findmediansorted.o"
+	@echo "... findmediansorted.i"
+	@echo "... findmediansorted.s"
 	@echo "... foursum.o"
 	@echo "... foursum.i"
 	@echo "... foursum.s"
@@ -1341,6 +1426,9 @@ help:
 	@echo "... nextPermutation.o"
 	@echo "... nextPermutation.i"
 	@echo "... nextPermutation.s"
+	@echo "... permute.o"
+	@echo "... permute.i"
+	@echo "... permute.s"
 	@echo "... regularmatch.o"
 	@echo "... regularmatch.i"
 	@echo "... regularmatch.s"

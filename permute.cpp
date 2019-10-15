@@ -7,6 +7,7 @@
 
 //使用递归把第一位分别压入nums的每一个int值,然后第二位分别压入除第一位外的其他值
 //n*(n-1)*(n-2)*...*1当nums为空时完成一个vector
+//edited by bf
 void recur(std::vector<int>& nums,std::vector<int> &num,std::vector<std::vector<int>>& ret){//&减少时间和内存消耗
     if(nums.size()==0){
         ret.emplace_back(num);
@@ -65,7 +66,8 @@ std::vector<std::vector<int>> permuteBack(std::vector<int>& nums) {
 
 int main(){
     std::vector<int> nums{1,2,3};
-    permuteBack(nums);
+    std::vector<std::vector<int>> ret;
+    ret=permuteBack(nums);
     for(int i=0;i<ret.size();i++){
         for(int j=0;j<ret[i].size();j++){
             std::cout<<ret[i][j]<<" ";
