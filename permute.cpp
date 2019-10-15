@@ -5,10 +5,9 @@
 #include <vector>
 #include <algorithm>
 
-std::vector<std::vector<int>> ret;
 //使用递归把第一位分别压入nums的每一个int值,然后第二位分别压入除第一位外的其他值
 //n*(n-1)*(n-2)*...*1当nums为空时完成一个vector
-void recur(std::vector<int>& nums,std::vector<int> &num){//&减少时间和内存消耗
+void recur(std::vector<int>& nums,std::vector<int> &num,std::vector<std::vector<int>>& ret){//&减少时间和内存消耗
     if(nums.size()==0){
         ret.emplace_back(num);
         return;
@@ -19,7 +18,7 @@ void recur(std::vector<int>& nums,std::vector<int> &num){//&减少时间和内�
         //擦除nums中该值,使下层压入的值中不包括已经压入的值
         nums.erase(it);
         //进入下一层
-        recur(nums,num);
+        recur(nums,num,ret);
         //在nums的it位置前插入刚刚删除的值,从而使下一个值压入的过程中还是在
         // 原nums的基础上,不然下一个值压入后传入下层的nums中缺少当前值
         nums.insert(it,*num.rbegin());
@@ -30,15 +29,16 @@ void recur(std::vector<int>& nums,std::vector<int> &num){//&减少时间和内�
 }
 
 std::vector<std::vector<int>> permute(std::vector<int>& nums) {
+    std::vector<std::vector<int>> ret;
     if(nums.size()==0)
         return ret;
     std::vector<int> num;
-    recur(nums,num);
+    recur(nums,num,ret);
     return ret;
 }
 
 
-//传递空td::vector<std::vector<int>>& ,比定义一个全局td::vector<std::vector<int>>消耗更少的时间和空间
+//传递空std::vector<std::vector<int>>& ,比定义一个全局td::vector<std::vector<int>>消耗更更少的时间和空间,要择优
 //使用交换法在原vector的基础上直接更改,用index记录更改到的位置,省去了上面方法中的一些数组操作
 void backtTracking(std::vector<int> &nums,int index,std::vector<std::vector<int>>& ret){
     if(index==nums.size()){
