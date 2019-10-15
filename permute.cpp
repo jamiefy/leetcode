@@ -65,9 +65,9 @@ std::vector<std::vector<int>> permuteBack(std::vector<int>& nums) {
 }
 
 int main(){
-    std::vector<int> nums{1,2,3};
+    std::vector<int> nums{1,2,3};permuteBack(nums);
     std::vector<std::vector<int>> ret;
-    ret=permuteBack(nums);
+    ret=permute(nums);
     for(int i=0;i<ret.size();i++){
         for(int j=0;j<ret[i].size();j++){
             std::cout<<ret[i][j]<<" ";
