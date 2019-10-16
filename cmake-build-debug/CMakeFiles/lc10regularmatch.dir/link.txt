@@ -1,1 +1,0 @@
-/usr/bin/g++  -g   CMakeFiles/lc10regularmatch.dir/regularmatch.cpp.o CMakeFiles/lc10regularmatch.dir/searchInsert.cpp.o  -o lc10regularmatch 

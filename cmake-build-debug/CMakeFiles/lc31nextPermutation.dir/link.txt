@@ -1,1 +1,0 @@
-/usr/bin/g++  -g   CMakeFiles/lc31nextPermutation.dir/nextPermutation.cpp.o  -o lc31nextPermutation 

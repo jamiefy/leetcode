@@ -1,1 +1,0 @@
-/usr/bin/g++  -g   CMakeFiles/lc33search.dir/search.cpp.o  -o lc33search 

@@ -1,1 +1,0 @@
-/usr/bin/g++  -g   CMakeFiles/lc6convertString.dir/convertString.cpp.o  -o lc6convertString 

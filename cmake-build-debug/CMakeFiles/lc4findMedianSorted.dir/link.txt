@@ -1,1 +1,0 @@
-/usr/bin/g++  -g   CMakeFiles/lc4findMedianSorted.dir/findMedianSorted.cpp.o  -o lc4findMedianSorted 

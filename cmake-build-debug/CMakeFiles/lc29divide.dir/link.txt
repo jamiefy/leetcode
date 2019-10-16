@@ -1,1 +1,0 @@
-/usr/bin/g++  -g   CMakeFiles/lc29divide.dir/divide.cpp.o  -o lc29divide 

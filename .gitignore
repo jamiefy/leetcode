@@ -1,0 +1,4 @@
+.idea/
+cmake-build-debug/
+*.git-credentials
+*.git-credentials.swp

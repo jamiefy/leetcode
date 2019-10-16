@@ -1,1 +1,0 @@
-/usr/bin/g++  -g   CMakeFiles/lc24swappairs.dir/swappairs.cpp.o  -o lc24swappairs 

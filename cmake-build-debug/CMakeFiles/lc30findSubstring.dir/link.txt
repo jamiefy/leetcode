@@ -1,1 +1,0 @@
-/usr/bin/g++  -g   CMakeFiles/lc30findSubstring.dir/findSubstring.cpp.o  -o lc30findSubstring 

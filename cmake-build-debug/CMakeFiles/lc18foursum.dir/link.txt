@@ -1,1 +1,0 @@
-/usr/bin/g++  -g   CMakeFiles/lc18foursum.dir/foursum.cpp.o  -o lc18foursum 
