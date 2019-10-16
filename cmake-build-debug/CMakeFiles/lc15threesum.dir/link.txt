@@ -1,1 +1,0 @@
-/usr/bin/g++  -g   CMakeFiles/lc15threesum.dir/threesum.cpp.o  -o lc15threesum 

@@ -1,1 +1,0 @@
-/usr/bin/g++  -g   CMakeFiles/lc28strStr.dir/strStr.cpp.o  -o lc28strStr 

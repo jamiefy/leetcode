@@ -1,1 +1,0 @@
-/usr/bin/g++  -g   CMakeFiles/lc21mergetwolist.dir/mergetwolist.cpp.o  -o lc21mergetwolist 

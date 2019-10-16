@@ -1,1 +1,0 @@
-/usr/bin/g++  -g   CMakeFiles/lc34searchRange.dir/searchRange.cpp.o  -o lc34searchRange 

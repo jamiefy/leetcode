@@ -1,1 +1,0 @@
-/usr/bin/g++  -g   CMakeFiles/lc22generateparenthesis.dir/generateparenthesis.cpp.o  -o lc22generateparenthesis 
