@@ -33,5 +33,7 @@ add_executable(lc31nextPermutation nextPermutation.cpp)
 add_executable(lc32longestValidParentheses longestValidParentheses.cpp)
 add_executable(lc33search search.cpp)
 add_executable(lc34searchRange searchRange.cpp)
+add_executable(lc36isValidSoduku isValidSoduku.cpp)
 add_executable(lc38countandsay countandsay.cpp)
 add_executable(lc46permute permute.cpp)
+
