@@ -22,6 +22,7 @@ std::string longestCommonPrefix(std::vector<std::string>& strs) {
 }
 
 int main(){
-    std::vector<std::string> vector{"fjabcj","fjabdee"};
+    //或vector{"fjabcj","fjabdee"}，但是不可以直接把列表填到形参
+    std::vector<std::string> vector={"fjabcj","fjabdee"};
     std::cout<<longestCommonPrefix(vector)<<std::endl;
 }
