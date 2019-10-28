@@ -4,6 +4,7 @@
 #include <iostream>
 #include <vector>
 
+//乘法不是对应位相乘，每位都应与对方每位相乘
 std::string multiply(std::string num1, std::string num2) {
     std::vector<int> multiplyVec;
     int len1=num1.size();
