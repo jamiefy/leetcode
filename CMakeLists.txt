@@ -38,5 +38,6 @@ add_executable(lc37solveSudoku solveSudoku.cpp)
 add_executable(lc38countandsay countandsay.cpp)
 add_executable(lc39combinationSum combinationSum.cpp)
 add_executable(lc40combinationSum2 combinationSum2.cpp)
+add_executable(lc43mutiply mutiply.cpp)
 add_executable(lc46permute permute.cpp)
 
