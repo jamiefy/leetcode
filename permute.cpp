@@ -60,8 +60,34 @@ std::vector<std::vector<int>> permuteBack(std::vector<int>& nums) {
     return ret;
 }
 
+//时间和空间消耗和recur方法一样少
+//DFS：用visited标记已经填进去的数，若之前填过则跳过
+void DFS(std::vector<std::vector<int>> &ret,std::vector<int>& nums,std::vector<bool> &visited,std::vector<int> &num){
+    if(num.size()==nums.size())
+        ret.emplace_back(num);
+    for(int i=0;i<nums.size();i++){
+        if(visited[i]==true)
+            continue;
+        visited[i]=true;
+        num.emplace_back(nums[i]);
+        DFS(ret,nums,visited,num);
+        //改变的一定要变回来，保证该层循环过程中visited数组和num数组不变——称为状态重置
+        visited[i]= false;
+        num.pop_back();
+    }
+}
+
+
+std::vector<std::vector<int>> permuteDFS(std::vector<int>& nums) {
+    std::vector<std::vector<int>> ret;
+    std::vector<bool> visited(nums.size(),false);
+    std::vector<int> num;
+    DFS(ret,nums,visited,num);
+    return ret;
+}
+
 int main(){
-    std::vector<int> nums{1,2,3};permuteBack(nums);
+    std::vector<int> nums{1,2,3};permuteDFS(nums);
     std::vector<std::vector<int>> ret;
     ret=permute(nums);
     for(int i=0;i<ret.size();i++){
