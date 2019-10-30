@@ -9,10 +9,8 @@
 //n*(n-1)*(n-2)*...*1当nums为空时完成一个vector
 //edited by bf to test git
 void recur(std::vector<int>& nums,std::vector<int> &num,std::vector<std::vector<int>>& ret){//&减少时间和内存消耗
-    if(nums.size()==0){
+    if(nums.size()==0)
         ret.emplace_back(num);
-        return;
-    }
     for(auto it=nums.begin();it!=nums.end();it++){
         //在num尾部构造该值,使下层压入的vector中包括该值
         num.emplace_back(*it);
@@ -42,10 +40,8 @@ std::vector<std::vector<int>> permute(std::vector<int>& nums) {
 //传递空std::vector<std::vector<int>>& ,比定义一个全局td::vector<std::vector<int>>消耗更更少的时间和空间,要择优
 //使用交换法在原vector的基础上直接更改,用index记录更改到的位置,省去了上面方法中的一些数组操作
 void backtTracking(std::vector<int> &nums,int index,std::vector<std::vector<int>>& ret){
-    if(index==nums.size()){
+    if(index==nums.size())
         ret.emplace_back(nums);
-        return;
-    }
     for(int i=index;i<nums.size();i++){
         //前缀保持不变,从index开始与后面的值依次交换位置
         std::swap(nums[index],nums[i]);
