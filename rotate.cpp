@@ -33,7 +33,8 @@ void rotate(std::vector<std::vector<int>>& matrix) {
     }
 }
 
-//最直接的想法是先转置矩阵，然后翻转每一行。这个简单的方法已经能达到最优的时间复杂度O(N^2)。
+//最直接的想法是先转置矩阵再翻转行，或者先翻转列再转置矩阵。（先转置矩阵再翻转列或者
+//先翻转行再转置矩阵是逆时针旋转90度）。这个简单的方法已经能达到最优的时间复杂度O(N^2)。
 //时间复杂度：O(N^2),空间复杂度：O(1)由于旋转操作是就地完成的。空间消耗小于rotate
 void rotateTransposeExert(std::vector<std::vector<int>>& matrix) {
     int size=matrix.size();
