@@ -42,4 +42,5 @@ add_executable(lc43mutiply mutiply.cpp)
 add_executable(lc46permute permute.cpp)
 add_executable(lc47permuteUnique permuteUnique.cpp)
 add_executable(lc48rotate rotate.cpp)
+add_executable(lc49groupAnagrams groupAnagrams.cpp)
 
