@@ -5,6 +5,7 @@
 #include <vector>
 #include <set>
 #include <map>
+#include <unordered_map>
 #include <algorithm>
 
 //时间复杂度：O(NKlogK)，其中 N是strs的长度，而K是strs中字符串的最大长度。当我们遍历每个字符串时，外部循环具有的复杂度为 O(N)。
@@ -76,13 +77,35 @@ std::vector<std::vector<std::string>> groupAnagrams(std::vector<std::string>& st
 
 }
 
+//最优化编程形式，时间空间消耗极大幅度减小。细节决定成败
+std::vector<std::vector<std::string>> groupAnagramsBest(std::vector<std::string>& strs) {
+    std::vector<std::vector<std::string>> res;
+    std::unordered_map<std::string,std::vector<std::string>> m;
+    for(auto str:strs){
+        std::string t = str;
+        //使用自定义lambda表达式排序和直接使用sort效率不相上下
+        sort(t.begin(),t.end(),[&] (char &a, char &b){ return a>=b;});
+        m[t].push_back(str);
+    }
+    //采用引用在时间和空间上均优于直接auto pair:m
+    for(auto& pair:m){
+        //采用move在时间和空间上均优于直接res.emplace_back(pair.second),相当于把指向pair.second的指针偷过来
+        //直接用，move之后pair.second为空,std::move执行到右值的无条件转换，避免不必要的拷贝操作。
+        //std::move是为性能而生。
+        //std::move是将对象的状态或者所有权从一个对象转移到另一个对象，只是转移，没有内存的搬迁或者内存拷贝。
+        res.push_back(std::move(pair.second));
+        //std::cout<<pair.second.empty()<<std::endl;输出1
+    }
+    return res;
+}
+
 
 int main(){
     std::vector<std::string> vec{"deb","ebd","hos","boo","nay","wow","bop","bob","brr","hey","rye","eve","elf",
                                   "pup","bum","iva","lyx","yap","ugh","hem","rod","aha","nam","gap","yea",
                                   "doc","pen","job","dis","max","oho","jed","lye","ram","pup","qua","ugh",
                                   "mir","nap","deb","hog","let","gym","bye","lon","aft","eel","sol","jab"};
-    std::vector<std::vector<std::string>> ret=groupAnagrams(vec);
+    std::vector<std::vector<std::string>> ret=groupAnagramsBest(vec);
     for(int i=0;i<ret.size();i++){
         for(auto str:ret[i]){
             std::cout<<str<<' ';
