@@ -98,6 +98,9 @@ double myPowBinary(double x, int n){
     return ans;
 }
 
+//二进制
+//时间复杂度：O(logn).
+//空间复杂的：O(1).
 double myPowBin(double x, int n){
     if(x==1||x==0)
         return x;
