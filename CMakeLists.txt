@@ -45,4 +45,5 @@ add_executable(lc48rotate rotate.cpp)
 add_executable(lc49groupAnagrams groupAnagrams.cpp)
 add_executable(lc50pow pow.cpp)
 add_executable(lc219containsNearbyDuplicate containsNearbyDuplicate.cpp)
+add_executable(lc53maxsubArray maxsubArray.cpp)
 
