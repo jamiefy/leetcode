@@ -4,10 +4,8 @@
 #include <iostream>
 #include <vector>
 
-//双指针 16ms 9.3MB
+//双指针 8ms 9.1MB
 int maxSubArrayPointer(std::vector<int>& nums) {
-    if(nums.size()==1)
-        return nums[0];
     //记录当前有效增益值
     int last=nums[0];
     //记录以往增益值的最大值，其初始值应该为nums[0]而不是INT_32MIN，不然当值为两个的时候最大值比较会漏掉第一个值
@@ -28,10 +26,8 @@ int maxSubArrayPointer(std::vector<int>& nums) {
     return max;
 }
 
-//动态规划 4ms 9.3MB
+//动态规划 8ms 9.4MB
 int maxSubArrayDP(std::vector<int>& nums){
-    if(nums.size()==1)
-        return nums[0];
     //记录当前有效增益值和最大值
     int max=nums[0];
     std::vector<int> dp(nums.size(),nums[0]);
@@ -42,13 +38,11 @@ int maxSubArrayDP(std::vector<int>& nums){
     return max;
 }
 
-//动态规划->整数代替动态数组 12ms 9.2MB
+//动态规划->整数代替动态数组 4ms 9.1MB
 //当最优化问题具有重复子问题和最优子结构的时候，就是动态规划出场的时候了。动态规划算法的核心就是提供了一个memory来缓存重复子问题
 //的结果，避免了递归的过程中的大量的重复计算。动态规划算法的难点在于怎么将问题转化为能够利用动态规划算法来解决。当重复子问题的数
 //目比较小时，动态规划的效果也会很差。如果问题存在大量的重复子问题的话，那么动态规划对于效率的提高是非常恐怖的。
 int maxSubArrayDPInt(std::vector<int>& nums){
-    if(nums.size()==1)
-        return nums[0];
     //记录当前有效增益值和最大值
     int max=nums[0];
     int dp=nums[0];
@@ -62,11 +56,8 @@ int maxSubArrayDPInt(std::vector<int>& nums){
 //贪心算法:构造当前子问题的最优解 12ms 9.3MB
 //贪心算法与动态规划的区别是每一步都会影响结果，不能回退，获取问题的局部最优解而不是全局最优解，所以最终结果不一定是整体的最优解。
 int maxSubArrayGreedy(std::vector<int>& nums){
-    if(nums.size()==1)
-        return nums[0];
-    //记录当前有效增益值和最大值
-    int max=INT32_MIN;
-    int sum=0;
+    int max=INT32_MIN;//最大值的比较从第一个数开始所以赋值32位最小整数
+    int sum=0;//以往有效增益值赋值0而不是nums[0]
     for(int i=0;i<nums.size();i++){
         sum+=nums[i];
         max=std::max(max,sum);
@@ -91,16 +82,18 @@ int maxSubArrayGreedy(std::vector<int>& nums){
 //分冶法：把一个大的问题分为若干个子问题，然后在子问题继续向下分，一直到base cases，通过base cases的解决，一步步向上，最终解决
 //最初的大问题。分治算法是递归的典型应用，归并排序、快速排序等均用到了分冶算法。
 //分冶法 8ms 9.5MB
-int maxCrossHelper(std::vector<int>& nums,int left,int right){
+int maxCrossHelper(std::vector<int>& nums,int left,int right){//查找过中间点的最大值
     int mid=left+(right-left)/2;
     int leftSum=0;
     int leftMax=INT32_MIN;
+    //在中间点左边查找跟中间点连续的最大值
     for(int i=mid;i>=left;i--){
         leftSum+=nums[i];
         leftMax=std::max(leftMax,leftSum);
     }
     int rightSum=0;
     int rightMax=INT32_MIN;
+    //在中间点右边查找跟中间点连续的最大值
     for(int j=mid+1;j<=right;j++){
         rightSum+=nums[j];
         rightMax=std::max(rightMax,rightSum);
