@@ -47,4 +47,5 @@ add_executable(lc50pow pow.cpp)
 add_executable(lc219containsNearbyDuplicate containsNearbyDuplicate.cpp)
 add_executable(lc53maxsubArray maxsubArray.cpp)
 add_executable(lc54spiralOrder spiralOrder.cpp)
+add_executable(lc55canJump canJump.cpp)
 
