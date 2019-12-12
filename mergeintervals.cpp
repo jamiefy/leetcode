@@ -4,6 +4,8 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <map>
+#include <unordered_set>
 
 //左边界排序，按左边界从小到大的顺序取区间进行判断，已知压进ret的区间满足后进的区间左边界大于前面区间的右边界，以此类推，所以每次
 //判断是否能进栈只需要拿欲进栈区间左边界跟栈顶区间右边界比较
@@ -61,6 +63,43 @@ std::vector<std::vector<int>> mergeSort(std::vector<std::vector<int>>& intervals
             it++;
     }
     return intervals;
+}
+
+std::map<std::vector<int>,std::vector<std::vector<int>>> graph;
+std::map<int,std::vector<std::vector<int>>> nodesInConnectedBlock;
+std::unordered_set<std::vector<int>> visited;
+
+void buildGraph(std::vector<std::vector<int>>& intervals){
+    for(auto interval:intervals){
+        graph.insert(interval,std::vector<int>{});
+    }
+    for(auto interval1:intervals){
+        for(auto interval2:intervals){
+            //判断任意两个区间是否存在直接重叠
+            if(interval1[0]<=interval2[1] && interval1[1]>=interval2[0]){
+                graph[interval1].emplace_back(interval2);
+                graph[interval2].emplace_back(interval1);
+            }
+        }
+    }
+}
+
+void buildConnectedBlock(std::vector<std::vector<int>>& intervals) {
+
+}
+
+std::vector<int> mergeNodesInConnectedBlock(std::vector<std::vector<int>>& connectedBlock){
+
+}
+
+std::vector<std::vector<int>> mergeConnectedBlock(std::vector<std::vector<int>>& intervals) {
+    buildGraph(intervals);
+    buildConnectedBlock(intervals);
+
+    std::vector<std::vector<int>> ret;
+    for(int num=0;num<nodesInConnectedBlock.size();num++){
+        ret.emplace_back(mergeNodesInConnectedBlock(nodesInConnectedBlock[num]));
+    }
 }
 
 
