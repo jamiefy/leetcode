@@ -65,6 +65,12 @@ std::vector<std::vector<int>> mergeSort(std::vector<std::vector<int>>& intervals
     return intervals;
 }
 
+//把图用邻接表表示，用两个方向的有向边模拟无向边。然后，为了考虑每个顶点属于哪个连通块，我们从任意一个未被访问的节点出发，遍历相邻点，直到所有顶点都被访问过。为了效率更快，我们将所有访问过的节点
+//记录在 Set 中，可以在常数时间内查询和插入。最后，我们考虑每个连通块，将所有区间合并成一个新的 Interval ，区间左端点 start 是最小的左端点，区间右端点 end 是最大的右端点。这个算法显然是正确的，
+//因为这是最暴力的方法。我们对两两区间进行比较，所以可以知道他们是否重合。连通块搜索的原理是因为两个区间可能不是直接重合，而是通过第三个区间而间接重合。
+//时间复杂度：O(n^2)建图的时间开销 O(V + E) = O(V) + O(E) = O(n) + O(n^2) = O(n^2)，最坏情况所有区间都相互重合，遍历整个图有相同的开销，因为 visited 数组保证了每个节点只会被访问一次。最后每个
+//节点都恰好属于一个连通块，所以合并的时间开销是 O(V) = O(n)。总和为：O(n^2) + O(n^2) + O(n) = O(n^2)
+//空间复杂度：O(n^2),根据之前提到的，最坏情况下每个区间都是相互重合的，所以两两区间都会有一条边，所以内存占用量是输入大小的平方级别。
 std::map<std::vector<int>,std::vector<std::vector<int>>> graph;
 std::map<int,std::vector<std::vector<int>>> nodesInConnectedBlock;
 std::unordered_set<std::vector<int>> visited;
@@ -84,12 +90,32 @@ void buildGraph(std::vector<std::vector<int>>& intervals){
     }
 }
 
-void buildConnectedBlock(std::vector<std::vector<int>>& intervals) {
+void markComponentsDFSInOneConnectedBlock(std::vector<int>& interval,int num){
+    if(nodesInConnectedBlock.find(num)==nodesInConnectedBlock.end()){
+        nodesInConnectedBlock.;
+    }
+}
 
+void buildConnectedBlock(std::vector<std::vector<int>>& intervals) {
+    int num=0;
+    for(auto interval:intervals){
+        if(visited.find(interval)==visited.end()){
+            markComponentsDFSInOneConnectedBlock(interval,num);
+            num++;
+        }
+    }
 }
 
 std::vector<int> mergeNodesInConnectedBlock(std::vector<std::vector<int>>& connectedBlock){
-
+    int minStart=connectedBlock[0][0];
+    for(auto node:connectedBlock){
+        minStart=std::min(node[0],minStart);
+    }
+    int maxEnd=connectedBlock[0][1];
+    for(auto node:connectedBlock){
+        maxEnd=std::max(node[1],maxEnd);
+    }
+    return std::vector<int>{minStart,maxEnd};
 }
 
 std::vector<std::vector<int>> mergeConnectedBlock(std::vector<std::vector<int>>& intervals) {
