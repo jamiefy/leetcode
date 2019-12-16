@@ -5,7 +5,8 @@
 #include <vector>
 #include <algorithm>
 #include <map>
-#include <unordered_set>
+#include <set>
+#include <stack>
 
 //左边界排序，按左边界从小到大的顺序取区间进行判断，已知压进ret的区间满足后进的区间左边界大于前面区间的右边界，以此类推，所以每次
 //判断是否能进栈只需要拿欲进栈区间左边界跟栈顶区间右边界比较
@@ -65,41 +66,78 @@ std::vector<std::vector<int>> mergeSort(std::vector<std::vector<int>>& intervals
     return intervals;
 }
 
+//上面的优化，运行速度最快，不使用迭代器直接使用下标，不原地合并使用另一个数组存放新的区间
+std::vector<std::vector<int>> mergeSortImp(std::vector<std::vector<int>>& intervals) {
+    int num = intervals.size();
+    if (num == 0)
+        return intervals;
+    //(std::vector<int>& interval1,std::vector<int>& interval2)比(std::vector<int> interval1,std::vector<int> interval2)会使整个代码优化一倍的时间
+    std::sort(intervals.begin(), intervals.end(), [](std::vector<int> &interval1, std::vector<int> &interval2) {
+        return interval1[0] < interval2[0];
+    });
+    std::vector<std::vector<int>> ret{intervals[0]};
+    for(int i=1;i<intervals.size();i++){
+        if(ret[ret.size()-1][1]>=intervals[i][0])
+            ret[ret.size()-1][1]=std::max(ret[ret.size()-1][1],intervals[i][1]);
+        else
+            ret.emplace_back(intervals[i]);
+    }
+    return ret;
+}
+
+
 //把图用邻接表表示，用两个方向的有向边模拟无向边。然后，为了考虑每个顶点属于哪个连通块，我们从任意一个未被访问的节点出发，遍历相邻点，直到所有顶点都被访问过。为了效率更快，我们将所有访问过的节点
 //记录在 Set 中，可以在常数时间内查询和插入。最后，我们考虑每个连通块，将所有区间合并成一个新的 Interval ，区间左端点 start 是最小的左端点，区间右端点 end 是最大的右端点。这个算法显然是正确的，
 //因为这是最暴力的方法。我们对两两区间进行比较，所以可以知道他们是否重合。连通块搜索的原理是因为两个区间可能不是直接重合，而是通过第三个区间而间接重合。
 //时间复杂度：O(n^2)建图的时间开销 O(V + E) = O(V) + O(E) = O(n) + O(n^2) = O(n^2)，最坏情况所有区间都相互重合，遍历整个图有相同的开销，因为 visited 数组保证了每个节点只会被访问一次。最后每个
-//节点都恰好属于一个连通块，所以合并的时间开销是 O(V) = O(n)。总和为：O(n^2) + O(n^2) + O(n) = O(n^2)
+//节点都恰好属于一个连通块，所以合并的时间开销是 O(V) = O(n)。总和为：O(n^2) + O(n^2) + O(n) = O(n^2)。运行时间超出时间限制，在n极大时不能通过。
 //空间复杂度：O(n^2),根据之前提到的，最坏情况下每个区间都是相互重合的，所以两两区间都会有一条边，所以内存占用量是输入大小的平方级别。
-std::map<std::vector<int>,std::vector<std::vector<int>>> graph;
+std::map<std::vector<int>,std::set<std::vector<int>>> graph;
 std::map<int,std::vector<std::vector<int>>> nodesInConnectedBlock;
-std::unordered_set<std::vector<int>> visited;
+std::map<std::vector<int>,bool> visited;
 
 void buildGraph(std::vector<std::vector<int>>& intervals){
     for(auto interval:intervals){
-        graph.insert(interval,std::vector<int>{});
+        //一定要插入一对数值<std::vector<int>,,std::vector<std::vector<int>>并采用std::set<std::vector<int>>{}初始化
+        graph.insert({interval,std::set<std::vector<int>>{}});
+        visited.insert({interval, false});
     }
     for(auto interval1:intervals){
         for(auto interval2:intervals){
             //判断任意两个区间是否存在直接重叠
-            if(interval1[0]<=interval2[1] && interval1[1]>=interval2[0]){
-                graph[interval1].emplace_back(interval2);
-                graph[interval2].emplace_back(interval1);
+            if(interval1!=interval2 && interval1[0]<=interval2[1] && interval1[1]>=interval2[0]){
+                graph[interval1].emplace(interval2);
+                graph[interval2].emplace(interval1);
             }
         }
     }
 }
 
 void markComponentsDFSInOneConnectedBlock(std::vector<int>& interval,int num){
-    if(nodesInConnectedBlock.find(num)==nodesInConnectedBlock.end()){
-        nodesInConnectedBlock.;
+    std::stack<std::vector<int>> nodesStackInOneConnectedBlock({interval});
+    //一定要插入一对数值<int,std::vector<std::vector<int>>并采用std::set<std::vector<int>>{}初始化
+    nodesInConnectedBlock.insert({num,std::vector<std::vector<int>>{}});
+
+    while(!nodesStackInOneConnectedBlock.empty()){
+        std::vector<int> top=nodesStackInOneConnectedBlock.top();
+        nodesStackInOneConnectedBlock.pop();
+
+        if(visited[top]== false){
+            nodesInConnectedBlock[num].emplace_back(top);
+            //visited直接插入std::vector<int>
+            visited[top]= true;
+            for(auto intervalInOneConnectedBlock:graph[top]){
+                if(visited[intervalInOneConnectedBlock]== false)
+                    nodesStackInOneConnectedBlock.emplace(intervalInOneConnectedBlock);
+            }
+        }
     }
 }
 
 void buildConnectedBlock(std::vector<std::vector<int>>& intervals) {
     int num=0;
     for(auto interval:intervals){
-        if(visited.find(interval)==visited.end()){
+        if(visited[interval]== false){
             markComponentsDFSInOneConnectedBlock(interval,num);
             num++;
         }
@@ -123,16 +161,16 @@ std::vector<std::vector<int>> mergeConnectedBlock(std::vector<std::vector<int>>&
     buildConnectedBlock(intervals);
 
     std::vector<std::vector<int>> ret;
-    for(int num=0;num<nodesInConnectedBlock.size();num++){
+    for(int num=0;num<nodesInConnectedBlock.size();num++)
         ret.emplace_back(mergeNodesInConnectedBlock(nodesInConnectedBlock[num]));
-    }
+    return ret;
 }
 
 
 
 int main(){
     std::vector<std::vector<int>> intervals{{1,2},{3,4},{2,6},{5,7}};
-    std::vector<std::vector<int>> ret=mergeSort(intervals);
+    std::vector<std::vector<int>> ret=mergeConnectedBlock(intervals);
     for(int i=0;i<ret.size();i++){
         std::cout<<ret[i][0]<<" "<<ret[i][1]<<std::endl;
     }
