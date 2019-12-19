@@ -50,4 +50,5 @@ add_executable(lc54spiralOrder spiralOrder.cpp)
 add_executable(lc55canJump canJump.cpp)
 add_executable(lc56mergeintervals mergeintervals.cpp)
 add_executable(lc58lengthOfLastWord lengthOfLastWord.cpp)
+add_executable(lc59generateMatrix generateMatrix.cpp)
 
