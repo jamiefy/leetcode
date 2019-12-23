@@ -4,7 +4,7 @@
 #include <iostream>
 #include <vector>
 
-//设定左上角点、右下角点和每个边的方向，设定行列临时值进行判断看是否在正常范围内
+//设定左上角点、右下角点（或者visited数组约束拐点）和每个边的方向，设定行列临时值进行判断看是否在正常范围内
 //时间复杂度：O(n^2)，运行速度几乎为0
 //空间复杂度：O(n^2)
 std::vector<std::vector<int>> generateMatrix(int n) {

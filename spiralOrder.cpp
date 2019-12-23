@@ -55,7 +55,7 @@ std::vector<int> spiralOrderLayer(std::vector<std::vector<int>>& matrix) {
         for(int row=rowLow+1;row<=rowHigh;row++)
             ret.emplace_back(matrix[row][colHigh]);
         //避免下面下边和左边重复输出已经输出的值
-        if(colHigh>colLow&&rowHigh>rowLow){
+        if(colHigh>colLow&&rowHigh>rowLow){ //注意跟59题不同的地方在于矩阵是不是正方形，如果是则不需要这个判断，如果不是则需要通过判断避免重复
             for(int col=colHigh-1;col>=colLow;col--)
                 ret.emplace_back(matrix[rowHigh][col]);
             for(int row=rowHigh-1;row>rowLow;row--)
