@@ -6,7 +6,7 @@
 
 //递归
 //时间复杂度：O(n)
-//空间复杂度：O(n)
+//空间复杂度：O(n)，递归栈
 std::string getPermutation(int n, int k,std::vector<int>& visited) {
 
     //如果使用5个数则可以将总排列分为5组，每组num=4*3*2个，计算k在哪组
