@@ -53,4 +53,5 @@ add_executable(lc58lengthOfLastWord lengthOfLastWord.cpp)
 add_executable(lc59generateMatrix generateMatrix.cpp)
 add_executable(lc60getPermutation getPermutation60.cpp)
 add_executable(lc61rotateRight rotateRight61.cpp)
+add_executable(lc62uniquePaths uniquePaths62.cpp)
 
