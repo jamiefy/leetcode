@@ -46,6 +46,27 @@ int uniquePathsDPImp(int m, int n) {
     return dp[m-1];
 }
 
+int factorial(int x){
+    if(x==1)
+        return 1;
+    long long product=1;
+    for(int i=x;i>1;i--){
+        product*=i;
+    }
+    return product;
+}
+//int factorial(int x){
+//    if(x==1)
+//        return 1;
+//    return x*factorial(x-1);
+//}
+//阶乘，任务可叙述为：从m+n-2步中选出哪m-1步是向下走，就可以确定走法数
+int uniquePathsFactorial(int m, int n) {
+    if(m==0||n==0||m==1||n==1)
+        return std::min(m,n);
+    return factorial(m+n-2)/factorial(m-1)/factorial(n-1);
+}
+
 int main(){
-    std::cout<<uniquePathsDPImp(7,3);
+    std::cout<<uniquePathsFactorial(10,10);
 }
