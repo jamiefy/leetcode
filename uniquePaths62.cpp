@@ -33,7 +33,7 @@ int uniquePathsDP(int m, int n) {
 }
 
 //动态规划,优化空间消耗
-//时间复杂度不变O(m*n），空间复杂度变小O(n)。
+//时间复杂度不变O(m*n），空间复杂度变小为O(m)。
 int uniquePathsDPImp(int m, int n) {
     if(m==0||n==0||m==1||n==1)
         return std::min(m,n);
