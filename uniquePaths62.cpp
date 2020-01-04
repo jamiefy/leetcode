@@ -46,27 +46,41 @@ int uniquePathsDPImp(int m, int n) {
     return dp[m-1];
 }
 
-int factorial(int x){
+int combination(int x,int y){
     if(x==1)
         return 1;
-    long long product=1;
-    for(int i=x;i>1;i--){
+    long product=1;
+    int limit=0,remainder=0;
+    if(x-y>y) {
+        limit = x - y;
+        remainder = y;
+    }
+    else{
+        limit=y;
+        remainder=x-y;
+    }
+    for(int i=x;i>limit;i--){
         product*=i;
+    }
+    for(int i=remainder;i>1;i--){
+        product/=i;
     }
     return product;
 }
+//factorial会超出int 和 long的界限
 //int factorial(int x){
 //    if(x==1)
 //        return 1;
 //    return x*factorial(x-1);
 //}
 //阶乘，任务可叙述为：从m+n-2步中选出哪m-1步是向下走，就可以确定走法数
-int uniquePathsFactorial(int m, int n) {
+int uniquePathscombination(int m, int n) {
     if(m==0||n==0||m==1||n==1)
         return std::min(m,n);
-    return factorial(m+n-2)/factorial(m-1)/factorial(n-1);
+//    return factorial(m+n-2)/factorial(m-1)/factorial(n-1);
+    return combination(m+n-2,m-1);
 }
 
 int main(){
-    std::cout<<uniquePathsFactorial(10,10);
+    std::cout<<uniquePathscombination(10,10);
 }
