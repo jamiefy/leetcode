@@ -55,5 +55,6 @@ add_executable(lc60getPermutation getPermutation60.cpp)
 add_executable(lc61rotateRight rotateRight61.cpp)
 add_executable(lc62uniquePaths uniquePaths62.cpp)
 add_executable(lc63uniquePathsWithObstacles uniquePathsWithObstacles63.cpp)
-add_executable(lc64minPathSum64 minPathSum64.cpp)
+add_executable(lc64minPathSum minPathSum64.cpp)
+add_executable(lc65plusOne plusOne65.cpp)
 
