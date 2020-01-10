@@ -32,7 +32,7 @@ int uniquePathsWithObstacles(std::vector<std::vector<int>>& obstacleGrid) {
     return dp[m-1];
 }
 
-//动态规划(可直接采用形参数组作为动态规划数组-空间复杂度：O(1)，减小空间消耗，但是此题中不可行会越界),所以需要再创建动态数组，会消耗更多的空间
+//动态规划(可直接采用形参数组作为动态规划数组-空间复杂度：O(1)，减小空间消耗，但是此题中不可行会超过int的最大界限),所以需要再创建动态数组，会消耗更多的空间
 //时间复杂度：O(m * n)
 //空间复杂度：O(m * n)
 int uniquePathsWithObstaclesDP(std::vector<std::vector<int>>& obstacleGrid) {
