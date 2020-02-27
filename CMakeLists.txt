@@ -59,4 +59,5 @@ add_executable(lc64minPathSum minPathSum64.cpp)
 add_executable(lc65plusOne plusOne65.cpp)
 add_executable(lc67addBinary addBinary67.cpp)
 add_executable(lc69mySqrt mySqrt69.cpp)
+add_executable(lc70climbStairs climbStairs70.cpp)
 
