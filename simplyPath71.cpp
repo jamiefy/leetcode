@@ -5,6 +5,7 @@
 #include <vector>
 #include <sstream>
 #include <stack>
+//用栈时间复杂度O(n),空间复杂度O(n)
 std::string simplyPath(std::string path) {
     std::stringstream is(path);
     std::vector<std::string> strs;
@@ -25,6 +26,7 @@ std::string simplyPath(std::string path) {
 }
 
 //可以用栈来实现新string的存储，不能直接在原string上进行
+//该方法执行时间和空间消耗更多
 std::string simplifyPathStack(std::string path) {
     if(path.size()==0 || path[0]!='/')
         return "";
