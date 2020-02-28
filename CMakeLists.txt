@@ -61,4 +61,4 @@ add_executable(lc67addBinary addBinary67.cpp)
 add_executable(lc69mySqrt mySqrt69.cpp)
 add_executable(lc70climbStairs climbStairs70.cpp)
 add_executable(lc71simplyPath simplyPath71.cpp)
-
+add_executable(lc136singleNumbe singleNumbe136.cpp)
