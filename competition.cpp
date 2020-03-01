@@ -16,6 +16,25 @@ std::vector<int> smallerNumbersThanCurrent(std::vector<int>& nums) {
     return ret;
 }
 
+//类似于桶排序，时间复杂度空间复杂度O(n)
+std::vector<int> smallerNumbersThanCurrentImp(std::vector<int>& nums) {
+    std::vector<int> cnt(101,0);
+    for (auto num: nums) {
+        cnt[num]++;
+    }
+    for (int i = 1; i <= 100; i++) {
+        cnt[i] +=cnt[i-1];
+    }
+    std::vector<int> ans;
+    for (auto num: nums) {
+        if(num!=0)
+            ans.push_back(cnt[num-1]);
+        else
+            ans.push_back(0);
+    }
+    return ans;
+}
+
 
 struct ListNode {
     int val;
