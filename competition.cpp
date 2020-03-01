@@ -47,7 +47,7 @@ struct TreeNode {
     TreeNode *right;
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
-
+//bfs+dfs
 bool getIsSubPath(ListNode* head, TreeNode* root){
     if(head==NULL)
         return true;
