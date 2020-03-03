@@ -44,7 +44,7 @@ ListNode* reverseListImprove(ListNode* head) {
     rever(head);
     return reverseHead;
 }
-
+//递归
 ListNode* reverseListImp(ListNode* head) {
     if(head==NULL||head->next==NULL)
         return head;
