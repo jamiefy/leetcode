@@ -3,7 +3,9 @@
 //
 #include <vector>
 int minCostValue=0;
-bool arrived(std::vector<std::vector<int>>& grid,int index){
+int arrived(std::vector<std::vector<int>>& grid,int row,int col){
+    if(row==0&&col==0)
+        return grid.size()-1+grid[0].size()-1;
     while(true){
         int i=0,j=0;
         switch (grid[i][j]){
@@ -24,16 +26,16 @@ bool arrived(std::vector<std::vector<int>>& grid,int index){
                 break;
             }
         }
-        if(i==grid.size()-index && j==grid[0].size()-index)
-            return index-1;
-        else
-            minCostValue=std::min(arrived(grid,index+1),arrived(grid,index+1));
-        if(i<0 || i>grid.size()-index || j<0 || j>grid[0].size()-index)
+        if(i==row && j==col)
+            return grid.size()-1-row+grid[0].size()-1-col;
+        if(i<0 || i>row || j<0 || j>col)
             break;
     }
+    minCostValue=std::min(arrived(grid,row,col-1),arrived(grid,row-1,col));
 }
 int minCost(std::vector<std::vector<int>>& grid) {
     if(grid.size()==0||grid[0].size()==1)
         return 0;
-    return arrived(grid,1);
+    arrived(grid,grid.size()-1,grid[0].size()-1);
+    return minCostValue;
 }

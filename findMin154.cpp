@@ -49,11 +49,12 @@ int findMinImp(std::vector<int>& nums) {
         else if(nums[right]<nums[mid])
             left=mid+1;
         else
-            right=right-1;//left<right保证不会超出界限
+            right=right-1;//精妙之笔left<right保证不会超出界限
     }
     return nums[left];//最小值肯定会有的
 }
 
+//运行时间最短
 int findMinImprove(std::vector<int>& nums) {
     int low = 0, high = nums.size() - 1;
 
