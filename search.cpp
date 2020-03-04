@@ -98,7 +98,7 @@ int searchImp(std::vector<int>& nums, int target) {
     while(low<high){
         int mid=low+(high-low)/2;
         //nums[mid] < nums[0]，nums[0] > target，target > nums[mid] 三项均为真或者只有一项为真时向后规约
-        if((nums[0] > target) ^ (nums[0] > nums[mid]) ^ (target > nums[mid]))
+        if((nums[low]> target) ^ (nums[low] > nums[mid]) ^ (target > nums[mid]))
             low=mid+1;
         else
             high=mid;//high=mid-1会导致low==high时存在正确解
