@@ -5,7 +5,7 @@
 #include <vector>
 #include <math.h>
 //枚举+数学优化
-//时间复杂度：由于枚举以后只需要 O(1) 的时间判断，所以时间复杂度为枚举起点的复杂度O(\textit{target})O(target) 。
+//时间复杂度：由于枚举以后只需要 O(1) 的时间判断，所以时间复杂度为枚举起点的复杂度O(target) 。
 //空间复杂度：O(1) ，除了答案数组只需要常数的空间存放若干变量。
 std::vector<std::vector<int>> findContinuousSequence(int target) {
     std::vector<std::vector<int>> vec;
@@ -28,7 +28,7 @@ std::vector<std::vector<int>> findContinuousSequence(int target) {
 }
 
 //双指针法
-//时间复杂度：由于两个指针移动均单调不减，且最多移动floor⌊2target⌋ 次，即方法一提到的枚举的上界，所以时间复杂度为 O(\textit{target})O(target) 。
+//时间复杂度：由于两个指针移动均单调不减，且最多移动floor⌊2target⌋ 次，即方法一提到的枚举的上界，所以时间复杂度为 O(target) 。
 //空间复杂度：O(1) ，除了答案数组只需要常数的空间存放若干变量。
 std::vector<std::vector<int>> findContinuousSequenceDoublePionter(int target) {
     std::vector<std::vector<int>> vec;
