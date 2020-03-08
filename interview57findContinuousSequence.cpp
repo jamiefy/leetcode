@@ -14,7 +14,7 @@ std::vector<std::vector<int>> findContinuousSequence(int target) {
     for (int x = 1; x <= limit; ++x) {
         long long delta = 1 - 4 * (x - 1ll * x * x - 2 * target);
         if (delta < 0) continue;
-        int delta_sqrt = (int)sqrt(delta + 0.5);//?为什么加0.5
+        int delta_sqrt = (int)sqrt(delta + 0.5);//提高sqrt函数的精确度
         if (1ll * delta_sqrt * delta_sqrt == delta && (delta_sqrt - 1) % 2 == 0){
             int y = (-1 + delta_sqrt) / 2; // 另一个解(-1-delta_sqrt)/2必然小于0，不用考虑
             if (x < y) {
