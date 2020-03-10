@@ -77,3 +77,4 @@ add_executable(lcinterview57findContinuousSequence interview57findContinuousSequ
 add_executable(lc160getIntersectionNode getIntersectionNode160.cpp)
 add_executable(lc322coinChange coinChange322.cpp)
 add_executable(lc121maxProfit121 maxProfit121.cpp)
+add_executable(lc543diameterOfBinaryTree diameterOfBinaryTree543.cpp)
