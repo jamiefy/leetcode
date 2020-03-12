@@ -73,6 +73,33 @@ ListNode* reverseBetweenRecursive(ListNode* head, int m, int n) {
     return head;
 }
 
+bool stop2= false;//交换至中心时停止交换数值
+ListNode* left;
+void reverseList2(ListNode* right,int m,int n){
+    if(n==1)
+        return;
+    right=right->next;
+    if(m>1)
+        left=left->next;
+    reverseList2(right,m-1,n-1);
+    if(left==right||left==right->next){
+        stop2=true;
+    }
+    if(!stop2){
+        int tmp=left->val;
+        left->val=right->val;
+        right->val=tmp;
+        left=left->next;
+    }
+}
+ListNode* reverseBetweenRecursive2(ListNode* head, int m, int n) {
+    if(head==NULL||head->next==NULL||m==n)
+        return head;
+    left=head;
+    reverseList2(head,m,n);
+    return head;
+}
+
 int  main(){
     ListNode* one=new ListNode(1);
     ListNode* two=new ListNode(2);
