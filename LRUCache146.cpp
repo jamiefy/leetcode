@@ -46,7 +46,7 @@ private:
     std::size_t cap;
 };
 
-//哈希表unordered_map（红黑树）和双链表
+//哈希表unordered_map（哈希表无序）和双链表
 struct DLinkedNode {
     int key;
     int value;
