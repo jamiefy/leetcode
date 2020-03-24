@@ -5,7 +5,12 @@
 #include <vector>
 #include<string>
 #include<unordered_map>
-
+//有一种特殊的DNA，仅仅由核酸A和T组成，长度为n，顺次连接
+//科学家有一种新的手段，可以改变这种DNA。每一次，科学家可以交换该DNA上两个核酸的位置，也可以将某个特定位置的核酸修改为另一种核酸。
+//现在有一个DNA，科学家希望将其改造成另一种DNA，希望你计算最少的操作次数。
+//ATTTAA
+//TTAATT
+//3
 int minSwap(std::string original,std::string goal){
     if(original.size()!=goal.size()) return -1;
     int len=original.size();
@@ -16,9 +21,12 @@ int minSwap(std::string original,std::string goal){
         ++numAToriginal[original[i]];
         ++numATgoal[goal[i]];
     }
+    //变少的字母少的那一部分肯定是直接改变
     char p=numAToriginal['A']-numATgoal['A']>0?'A':'T';
+    //少的个数就是直接改变的次数
     cnt += std::abs(numAToriginal['A'] - numATgoal['A']);
     for(auto i = 0; i < len; ++i)
+        //变多的字母（A或者T）在求最少操作次数的前提下，肯定不会直接改变，如果需要改变则与现存变少的字母进行交换
         if(original[i] != p && goal[i] == p)
             ++cnt;
 }
