@@ -26,7 +26,8 @@ int minSwap(std::string original,std::string goal){
     //少的个数就是直接改变的次数
     cnt += std::abs(numAToriginal['A'] - numATgoal['A']);
     for(auto i = 0; i < len; ++i)
-        //变多的字母（A或者T）在求最少操作次数的前提下，肯定不会直接改变，如果需要改变则与现存变少的字母进行交换
+        //变多的字母（A或者T）如果直接改变，则肯定存在变少的字母对应他直接改变（因为除去变少的那部分之后其他字母总量不变），
+        //因为是求最少操作次数，所以直接交换
         if(original[i] != p && goal[i] == p)
             ++cnt;
 }
