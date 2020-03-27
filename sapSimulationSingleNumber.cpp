@@ -49,7 +49,7 @@ struct TreeNode {
     TreeNode *right;
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
-
+//反向中序遍历
 class BSTIterator {
 public:
     BSTIterator(TreeNode* root) {
