@@ -24,5 +24,6 @@ int main(){
     std::cin>>n>>m;
     //输出自动补零
     std::cout.setf(std::ios::fixed);
-    std::cout<<std::fixed<<std::setprecision(4)<<likelihood(n,m)<<std::endl;
+    std::cout<<std::setprecision(4)<<likelihood(n,m)<<std::endl;
+    //或者std::cout<<std::fixed<<std::setprecision(4)<<likelihood(n,m)<<std::endl;
 }
