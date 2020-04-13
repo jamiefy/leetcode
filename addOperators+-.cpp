@@ -10,7 +10,7 @@ using namespace std;
 // path: 目前为止的表达式
 // 字符串开始的位置
 // eval 目前为止计算的结果
-void addOperatorsHelper(string nums, int target, vector<string>& result, string path, int start, long eval,int pre) {
+void addOperatorsHelper(string nums, int target, vector<string>& result, string path, int start, long eval) {
     if (start == nums.length()) {
         if (target == eval) {
             result.emplace_back(path);
@@ -25,15 +25,15 @@ void addOperatorsHelper(string nums, int target, vector<string>& result, string 
         string s=nums.substr(start,cnt);
         long num=atoi(s.c_str());
         if(start==0)
-            addOperatorsHelper(nums,target,result,path+s,start+1,eval+num,num);
+            addOperatorsHelper(nums,target,result,path+s,start+cnt,eval+num);
         else{
-            addOperatorsHelper(nums,target,result,path+"+"+s,start+1,eval+num,num);
-            addOperatorsHelper(nums,target,result,path+"-"+s,start+1,eval-num,-num);
+            addOperatorsHelper(nums,target,result,path+"+"+s,start+cnt,eval+num);
+            addOperatorsHelper(nums,target,result,path+"-"+s,start+cnt,eval-num);
         }
     }
 }
 
-void addOperatorsHelper2(string nums, int target, vector<string>& result, string path, int index, long eval,int pre) {
+void addOperatorsHelper2(string nums, int target, vector<string>& result, string path, int index, long eval,long pre) {
     if (index == nums.length()) {
         if (target == eval) {
             result.emplace_back(path);
@@ -43,20 +43,20 @@ void addOperatorsHelper2(string nums, int target, vector<string>& result, string
         char s=nums[index];
         long num=s-'0';
         if(index==0)
-            addOperatorsHelper(nums,target,result,path+s,index+1,eval,num);
+            addOperatorsHelper2(nums,target,result,path+s,index+1,eval,num);
         else{
             //当前一个值为0时，不能直接连接数字,避免"01"这种以0开头的字符串
             if(pre!=0)
-                //用递归实现数字直接相连的可能组合
-                addOperatorsHelper(nums,target,result,path+s,index+1,eval-pre+pre*10+num,pre*10+num);
-            addOperatorsHelper(nums,target,result,path+"+"+s,index+1,eval+num,num);
-            addOperatorsHelper(nums,target,result,path+"-"+s,index+1,eval-num,-num);
+                //用递归实现数字直接相连的可能组合,目前为止计算的结果一定要注意上一个数字的正负号
+                addOperatorsHelper2(nums,target,result,path+s,index+1,eval-pre+pre*10+(pre>0?num:-num),pre*10+(pre>0?num:-num));
+            addOperatorsHelper2(nums,target,result,path+"+"+s,index+1,eval+num,num);
+            addOperatorsHelper2(nums,target,result,path+"-"+s,index+1,eval-num,-num);
         }
 }
 
-vector<string> addOperators2(string nums, int target) {
+vector<string> addOperators(string nums, int target) {
     vector<string> result;
-    addOperatorsHelper(nums, target, result, "", 0, 0,0);
+    addOperatorsHelper2(nums, target, result, "", 0, 0,0);
     return result;
 }
 
@@ -66,7 +66,7 @@ int main(){
     getline(cin,str);
     int target;
     cin>>target;
-    vector<string> ret=addOperators2(str,target);
+    vector<string> ret=addOperators(str,target);
     for(auto r:ret)
         cout<<r<<endl;
     return 0;
