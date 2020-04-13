@@ -1,6 +1,8 @@
 //
 // Created by anranzhai on 2020/4/13.
 //
+//工位上可以坐的最多人数 [[# , .],[# , .]] 用来表示工位的状态，#表示没有座位，每个人前后左右都不可以有人。
+//解法：从左上角开始，一行一行扫描判断是否可以坐人
 #include <iostream>
 #include <vector>
 using namespace std;
