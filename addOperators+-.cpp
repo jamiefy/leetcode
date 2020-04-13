@@ -24,6 +24,7 @@ void addOperatorsHelper(string nums, int target, vector<string>& result, string 
             break;
         string s=nums.substr(start,cnt);
         long num=atoi(s.c_str());
+        //下一次的开始坐标是start+cnt而不是start+1
         if(start==0)
             addOperatorsHelper(nums,target,result,path+s,start+cnt,eval+num);
         else{
@@ -47,7 +48,7 @@ void addOperatorsHelper2(string nums, int target, vector<string>& result, string
         else{
             //当前一个值为0时，不能直接连接数字,避免"01"这种以0开头的字符串
             if(pre!=0)
-                //用递归实现数字直接相连的可能组合,目前为止计算的结果一定要注意上一个数字的正负号
+                //用递归实现数字直接相连的可能组合,目前为止计算的结果一定要注意上一个数字的正负号(注意当有*号时不能这么去0开头的数字组合，因为0*1为0但是后面还可以直接续数，而且2*1到2*12不能通过eval-pre+pre*10+(pre>0?num:-num)得到)
                 addOperatorsHelper2(nums,target,result,path+s,index+1,eval-pre+pre*10+(pre>0?num:-num),pre*10+(pre>0?num:-num));
             addOperatorsHelper2(nums,target,result,path+"+"+s,index+1,eval+num,num);
             addOperatorsHelper2(nums,target,result,path+"-"+s,index+1,eval-num,-num);
