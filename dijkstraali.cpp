@@ -9,7 +9,7 @@
 //第一行 输入 n,m,l 对应城市、路径、聚会城市
 //接下来m行，x,y,z从城市x到城市y的距离为z
 //输出
-//输出最长距离
+//输出最长距离(注意不是总共距离，是每个城市到聚会城市的距离和返回的距离和中的最长)
 //eg：输入：
 //4 8 2
 //1 2 4
@@ -24,8 +24,6 @@
 #include <iostream>
 #include <vector>
 #include <map>
-#include <set>
-#include <algorithm>
 using namespace std;
 int mindis(vector<int> &distance,vector<bool> &visited){
     int min=INT32_MAX;
@@ -55,8 +53,8 @@ void dijkstra(int start,vector<int> &dis,vector<map<int,int>> &edge){
 int main(){
     int n,m,c;
     cin>>n>>m>>c;
-    vector<map<int,int>> edge(n+1,map<int,int>());
     vector<int> distance(n+1,INT32_MAX);
+    vector<map<int,int>> edge(n+1,map<int,int>());
     vector<vector<int>> dis(n+1,distance);
     for(int i=1;i<=m;i++){
         int x,y,l;
@@ -72,12 +70,15 @@ int main(){
         dijkstra(i,dis[i],edge);
     }
 
-    int sum=0;
+    int ans=0;
     for(int i=1;i<=n;i++){
+        int sum=0;
         sum+=dis[i][c];
         sum+=dis[c][i];
+        ans=max(sum,ans);
+
     }
-    cout<<sum;
+    cout<<ans;
     return 0;
 }
 
