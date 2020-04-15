@@ -31,6 +31,7 @@ int main(){
         string nums;
         cin>>nums;
         long long left=0,right=nums.size()-1;
+        //必须是left<=right而不能是left<right，保证奇数个时能对中心位置进行判断是不是1
         while(left<=right){
             if(nums[left]==cmap[nums[right]]){
                 left++;
