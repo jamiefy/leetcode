@@ -58,6 +58,29 @@ private:
     vector<int> rank;
 };
 
+
+//贪心算法
+//时间复杂度: O(N^2)，其中 NN 为情侣对的数量。
+//空间复杂度: O(1)，互相交换不需要开辟额外的空间。
+int minSwapsCouples(vector<int> &row){
+    int ans=0;
+    for(int i=0;i<row.size();i+=2){
+        int x=row[i];
+        //x异或1=最低位取相反数
+        if(row[i+1]==(x^1))continue;
+        ans++;
+        //如果情侣未配对，在该位之后寻找另一位与之配对-交换
+        for(int j=i+1;j<row.size();j++){
+            if(row[j]==(x^1)){
+                row[j]=row[i+1];
+                row[i+1]=x^1;
+                break;
+            }
+        }
+    }
+
+}
+
 int main(){
     vector<int> vec{0,2,1,3};
     Solution s;
