@@ -119,7 +119,6 @@ int numLand(vector<vector<char>> &grid) {
     int nc = grid[0].size();
 
     UnionFind uf(grid);
-    int num_islands = 0;
     for (int r = 0; r < nr; ++r) {
         for (int c = 0; c < nc; ++c) {
             if (grid[r][c] == '1') {
