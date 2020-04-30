@@ -8,6 +8,9 @@
 #include<bits/stdc++.h>
 #define ll long long
 using namespace std;
+//排序->从左或右数的第k个数一定包括在k个数里->数学运算
+//时间复杂度O(nlogn)
+//空间复杂度O(1),固定常数空间202020
 #define N 202020
 int cas, n, m, tot, K;
 int a[N];
@@ -24,6 +27,7 @@ int main() {
         }
     }
     sort (a + 1, a + n + 1);
+    //前i高度总共包括的方块数
     for (int i = 1; i <= n; ++i) sum[i] = sum[i - 1] + a[i];
     //至少k个，如果是前k个则肯定包含a[k]
     ll ans1 = (ll)a[K] * K - sum[K];
@@ -38,3 +42,68 @@ int main() {
     printf("%lld\n", min(ans1, ans2));
     return 0;
 }
+
+//递归
+//int mincnt=INT32_MAX;
+//void minDoesTake(map<int,int> heights,int cur,int k) {
+//    auto point = heights.rbegin();
+//    point->second--;
+//    cur++;
+//    if (heights.count(point->first - 1)){
+//        //一定要在此处判断是否达到k个，而不应该在开头判断最低高度是否达到k个，因为最后达到k个的不一定是最低高度
+//        if(++heights[point->first - 1]==k){
+//            mincnt=std::min(mincnt,cur);
+//            return;
+//        }
+//    }
+//    else
+//        heights[point->first - 1] = 1;
+//    if (!point->second)heights.erase(point->first);
+//    minDoesTake(heights, cur, k);
+//}
+//
+//void minDoesBring(map<int,int> heights,int cur,int k){
+//    if(heights.begin()->second==k){
+//        mincnt=std::min(mincnt,cur);
+//        return;
+//    }
+//
+//    auto point=heights.begin();
+//    point->second--;
+//    cur++;
+//    if(heights.count(point->first+1)){
+//        if(++heights[point->first +1]==k){
+//            mincnt=std::min(mincnt,cur);
+//            return;
+//        }
+//    }
+//    else
+//        heights[point->first+1]=1;
+//    if(!point->second)heights.erase(point->first);
+//    minDoesBring(heights,cur,k);
+//}
+//
+//int main() {
+//    int n,k;
+//    cin>>n>>k;
+//    map<int,int> heights;
+//    int sum=0;
+//    for(int i=0;i<n;i++){
+//        int x;
+//        cin>>x;
+//        if(heights.count(x))
+//            heights[x]++;
+//        else
+//            heights[x]=1;
+//        if(heights[x]==k){
+//            cout<<0<<endl;
+//            return 0;
+//        }
+//        sum+=x;
+//    }
+//    minDoesTake(heights,0,k);
+//    minDoesBring(heights,0,k);
+//
+//    std::cout << mincnt<< std::endl;
+//    return 0;
+//}
