@@ -67,6 +67,42 @@ vector<int> preorderTraversalUni(TreeNode* root) {
     return vec;
 }
 
+//morris（保持树原有结构）,空间消耗最少
+vector<int> inorderTraversalmirror(TreeNode* root) {
+    if(root==NULL)
+        return vector<int>();
+    vector<int> ret;
+    TreeNode* cur = root;
+    TreeNode* pre = NULL;
+    while(cur!=NULL) {
+        if (cur->left == NULL) {
+            ret.emplace_back(cur->val);
+            cur = cur->right;
+        } else {
+            pre = cur->left;
+            //找到前驱节点，即左子树中的最右节点
+            //pre->right!=NULL第一遍遍历到该最右节点
+            //pre->right!=cur第二遍遍历到该最右节点
+            while (pre->right != NULL && pre->right != cur)
+                pre = pre->right;
+            //创建中序遍历线索
+            if (pre->right == NULL) {
+                //前序遍历第一次遍历到该最右节点就把父节点输出
+                ret.emplace_back(cur->val);
+                pre->right = cur;
+                cur = cur->left;
+            }
+            //第二次遍历到该最右节点，恢复树原有结构
+            if (pre->right == cur) {
+                pre->right = NULL;
+//                ret.emplace_back(cur->val);若中序则第二遍遍历到的时候输出cur
+                cur = cur->right;
+            }
+        }
+    }
+    return ret;
+}
+
 int main(){
     TreeNode* node0=new TreeNode(0);
     TreeNode* node1=new TreeNode(1);
