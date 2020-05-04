@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 
 add_executable(lc4findmediansorted findmediansorted.cpp)
+add_executable(lc5longestPalindrome longestPalindrome.cpp)
 add_executable(lc6convertString convertString.cpp)
 add_executable(lc7reverseint reverseint.cpp)
 add_executable(lc8atoi atoi.cpp)
