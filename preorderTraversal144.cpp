@@ -68,7 +68,7 @@ vector<int> preorderTraversalUni(TreeNode* root) {
 }
 
 //morris（保持树原有结构）,空间消耗最少
-vector<int> inorderTraversalmirror(TreeNode* root) {
+vector<int> preorderTraversalmirror(TreeNode* root) {
     if(root==NULL)
         return vector<int>();
     vector<int> ret;
