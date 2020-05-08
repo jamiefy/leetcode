@@ -23,7 +23,7 @@ void getNextVal(string p,vector<int> &next){
     }
 }
 
-int longestCommonSubsequence(string text1, string text2) {
+int longestCommonSubstring(string text1, string text2) {
     if(text1.size()==0||text2.size()==0)
         return 0;
     if(text1.size()<text2.size())
@@ -45,7 +45,52 @@ int longestCommonSubsequence(string text1, string text2) {
     return maxIndex;
 }
 
+//暴力时间复杂度O(n*n*m)
+int longestCommonSubsequencebaoli(string text1, string text2) {
+    if(text1.size()==0||text2.size()==0)
+        return 0;
+    int maxCount=INT32_MIN;
+    for(int k=0;k<text1.size();k++){
+        int count=0;
+        int index=0;
+        for(int i=k;i<text1.size();i++){
+            for(int j=index;j<text2.size();j++){
+                if(text1[i]==text2[j]){
+                    index=j+1;
+                    count++;
+                    break;
+                }
+            }
+        }
+        maxCount=max(maxCount,count);
+    }
+    return maxCount;
+}
+
+//穷举出所有可能的结果都不容易，而动态规划算法做的就是穷举 + 剪枝，它俩天生一对儿。
+//所以可以说只要涉及子序列问题，十有八九都需要动态规划来解决
+//动态规划优化+空间压缩
+//时间复杂度O(n*m)
+//空间复杂度O(m)
+int longestCommonSubsequence(string text1, string text2) {
+    if(text1.size()==0||text2.size()==0)
+        return 0;
+    vector<int> dp(text2.size()+1,0);
+    for(int i=1;i<=text1.size();i++){
+        int last=0;
+        for(int j=1;j<=text2.size();j++){
+            int tmp=dp[j];
+            if(text1[i-1]==text2[j-1])
+                dp[j]=last+1;
+            else
+                dp[j]=max(dp[j],dp[j-1]);
+            last=tmp;
+        }
+    }
+    return dp[text2.size()];
+}
+
 int main(){
-    cout<<longestCommonSubsequence("acde"
-                                   ,"ace");
+    cout<<longestCommonSubsequencebaoli("mhunuzqrkzsnidwbun"
+                                        ,"szulspmhwpazoxijwbq");
 }
