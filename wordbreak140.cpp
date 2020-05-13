@@ -35,7 +35,7 @@ vector<string> wordBreakrecur(string s, vector<string>& wordDict) {
     return ret;
 }
 
-
+//动态规划+前缀树
 struct TreeNode{
     //一定要设置初始值，不然会出现未定义行为
     array<TreeNode*,26> children{};
@@ -54,23 +54,18 @@ void insert(TreeNode* root,string str){
     root->word=str;
 }
 
-bool dfs(std::string s,TreeNode* root,int index,vector<vector<string>> &dp){
-    if(index==s.size())
-        return true;
-    TreeNode* cur=root;
-    bool flag=false;
-    for(int i=index;i<s.size();i++){
-        //如果该字符不在当前前缀里，说明以index开头的字符后面部分不可拆分，可直接退出
-        if(cur->children[s[i]-'a']==NULL)
-            break;
-        cur=cur->children[s[i]-'a'];
-        if(cur->isWord&&dfs(s,root,i+1,dp)){
-            dp[index].emplace_back(cur->word);
-            flag=true;
-        }
+//把dp中所有可能性组合拼接起来
+void collect(std::string s,vector<vector<int>> &dp,int index,string now,vector<string> &ret){
+    if(index==s.size()){
+        //注意把最后一个空格去掉
+        now=now.substr(0,now.size()-1);
+        ret.emplace_back(now);
+        return;
     }
-
-    return flag;
+    if(index>s.size())return;
+    for(auto p:dp[index]){
+        collect(s,dp,p+1,now+s.substr(index,p-index+1)+" ",ret);
+    }
 }
 
 vector<string> wordBreak(std::string s, std::vector<std::string>& wordDict) {
@@ -82,19 +77,32 @@ vector<string> wordBreak(std::string s, std::vector<std::string>& wordDict) {
     }
 
     vector<string> ret;
-    TreeNode* cur=root;
-    for(int i=0;i<s.size();i++){
-        //如果该字符不在当前前缀里，说明以index开头的字符后面部分不可拆分，可直接退出
-        if(cur->children[s[i]-'a']==NULL)
-            break;
-        cur=cur->children[s[i]-'a'];
-        string now="";
-        if(cur->isWord&&dfs(s,root,i+1,now)){
-            now+=string(cur->word.rbegin(),cur->word.rend());
-            reverse(now.begin(),now.end());
-            ret.emplace_back(now);
+    //每个index对应一个容器，如果包含该index及之后的字符串可拆分，则把右边最近距离的可差费
+    vector<vector<int>> dp(s.size(),vector<int>());
+    vector<bool> canBreak(s.size()+1, false);
+    canBreak[s.size()]=true;
+    for(int i=s.size()-1;i>=0;i--){
+        TreeNode* cur=root;
+        for(int j=i;j<s.size();j++){
+            //说明从i的前面不可断开，没有以i开头的单词
+            if(cur->children[s[j]-'a']==NULL)
+                break;
+            cur=cur->children[s[j]-'a'];
+            //i~j也就是i包括i及之后到j包括j组成单词，且j后可拆
+            if(cur->isWord&&canBreak[j+1]){
+                //说明i后可在j处拆分
+                dp[i].emplace_back(j);
+            }
         }
+        if(dp[i].size()>0)
+            canBreak[i]=true;
     }
+
+    if(!canBreak[0])
+        return ret;
+    else
+        collect(s,dp,0,"",ret);
+
     return ret;
 }
 
