@@ -58,6 +58,8 @@ void insert(TreeNode* root,string str){
 void collect(std::string s,vector<vector<int>> &dp,int index,string now,vector<string> &ret){
     if(index==s.size()){
         //注意把最后一个空格去掉
+
+
         now=now.substr(0,now.size()-1);
         ret.emplace_back(now);
         return;
