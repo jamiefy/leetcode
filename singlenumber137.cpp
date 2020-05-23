@@ -3,29 +3,16 @@
 //
 #include <iostream>
 #include <vector>
-int singleNumber(std::vector<int>& nums) {
-    int bits[32]={0};
-    for(auto num:nums) {
-        int bitMask = 1;
-        for (int i = 31; i >= 0; i--) {
-            int bit=num & bitMask;
-            if(bit!=0)
-                bits[i]+=1;
-            //bits[i] += num & bitMask;错误：num & 10 = 10（当num=2时）而不是 1 此时bits[i] += num & bitMask;等价于bits[i]+=2；而不是bits[i]+=1;
-            bitMask<<=1;
-        }
-    }
-    int result=0;
-    for(int i=0;i<=31;i++){
-        result<<=1;
-        result+=bits[i]%3;
-    }
-    return result;
-}
+#include <array>
+using namespace std;
 
 //位运算：NOT/AND/XOR
 //时间复杂度：O(N)，遍历输入数组。
 //空间复杂度：O(1)，不使用额外空间。
+//为了区分出现一次的数字和出现三次的数字，使用两个位掩码：seen_once 和 seen_twice。
+//思路是：
+//仅当 seen_twice 未变时，改变 seen_once。
+//仅当 seen_once 未变时，改变seen_twice。
 int singleNumberXOR(std::vector<int> nums) {
     int seenOnce = 0, seenTwice = 0;
 
@@ -45,6 +32,27 @@ int singleNumberXOR(std::vector<int> nums) {
         seenTwice = ~seenOnce & (seenTwice ^ num);
     }
     return seenOnce;
+}
+
+int singleNumber(vector<int>& nums) {
+    array<int,32> bits{0};
+    for(auto num:nums){
+        int bit=1;
+        for(int i=31;i>0;i--){
+            if(num&bit)
+                //bits[i] += num & bitMask;错误：num & 10 = 10（当num=2时）而不是 1 此时bits[i] += num & bitMask;等价于bits[i]+=2；而不是bits[i]+=1;
+                bits[i]++;
+            bit<<=1;
+        }
+        if(num&bit)
+            bits[0]++;
+    }
+    int result=0;
+    for(int i=0;i<32;i++){
+        result<<=1;
+        result+=(bits[i]%3);
+    }
+    return result;
 }
 
 int main(){
