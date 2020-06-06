@@ -45,7 +45,7 @@ void dfs(vector<int>& nums,vector<vector<int>>& ret,vector<int>& base,int index)
         dfs(nums,ret,base,index+1);
         base.pop_back();
     }
-    //当前位与前一位相等,说明与跳过前一位加上该位会产生相同的序列，直接退出->去重
+    //当前位与前一位相等,说明 加上前一位跳过该位 与 跳过前一位加上该位 会产生相同的序列，直接返回略去加上前一位跳过该位->去重
     if(index>0&&!base.empty()&&nums[index]==base.back())return;
     //当前位与前一位不相等，
     dfs(nums,ret,base,index+1);
