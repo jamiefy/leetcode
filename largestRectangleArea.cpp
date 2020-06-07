@@ -7,6 +7,10 @@
 #include <algorithm>
 //时间复杂度：O(n)。 n个数字每个会被压栈弹栈各一次。
 //空间复杂度：O(n)。用来存放栈中元素。
+//对于一个高度，如果能得到向左和向右的边界
+//那么就能对每个高度求一次面积
+//遍历所有高度，即可得出最大面积
+//使用单调栈，在出栈操作时得到前后边界并计算面积
 int largestRectangleArea(std::vector<int>& heights) {
     if(heights.size()==0)
         return 0;
