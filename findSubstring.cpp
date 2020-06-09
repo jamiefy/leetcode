@@ -5,7 +5,8 @@
 #include <vector>
 #include <map>
 #include <algorithm>
-
+#include <map>
+using namespace std;
 //递归提交leetcode超出时间限制
 std::vector<std::string> out;
 void connectSubstring(std::vector<std::string> words,std::string str,int index){
@@ -125,11 +126,49 @@ std::vector<int> findSubstringImp(std::string s, std::vector<std::string>& words
     return retIndex;
 }
 
+vector<int> findSubstringtwice(string s, vector<string>& words) {
+    if(words.size()==0||s.size()==0)
+        return vector<int>();
+    int sublen=words[0].size();
+    map<string,int> nset;
+    if(s.size()<sublen*words.size())
+        return vector<int>();
+    for(int i=0;i<words.size();i++){
+        if(nset.count(words[i]))
+            nset[words[i]]++;
+        else
+            nset[words[i]]=1;
+    }
+    vector<int> ret;
+    map<string,int> nmap=nset;
+    //如果使用`st<n`来作为终结条件， 那么s中`n-totalWordsLength`后所有的遍历实际上都是无意义  --而这是这些大量的无意义的遍历造成了一种形态的超时
+    //故改st终止条件为`st <= n-totalWordsLength`
+    for(int i=0;i<=s.size()-words.size()*sublen;){
+        int j=i;
+        for(;j<i+words.size()*sublen&&j+sublen<=s.size();j+=sublen){
+            string tmp=s.substr(j,sublen);
+            if(nmap.count(tmp)&&!nmap[tmp]==0){
+                nmap[tmp]--;
+            } else
+                break;
+        }
+        nmap=nset;
+        if(j>=words.size()*sublen+i) {
+            ret.emplace_back(i);
+            while(j<=s.size()-words.size()*sublen
+            &&s.substr(j,sublen)==s.substr(i,sublen)){
+                ret.emplace_back(i+=sublen);
+                j+=sublen;
+            }
+        }
+        i++;
+    }
+    return ret;
+}
 
 int main(){
-    std::vector<std::string> words{""};
-    std::vector<int> ret=findSubstringImp(""
-            ,words);
+    std::vector<std::string> words{"word","good","best","good"};
+    std::vector<int> ret=findSubstringtwice("wordgoodgoodgoodbestword",words);
     for(int i=0;i<ret.size();i++){
         std::cout<<ret[i]<<std::endl;
     }
