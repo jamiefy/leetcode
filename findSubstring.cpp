@@ -155,6 +155,7 @@ vector<int> findSubstringtwice(string s, vector<string>& words) {
         nmap=nset;
         if(j>=words.size()*sublen+i) {
             ret.emplace_back(i);
+            //当上一组匹配的时候下一组可以直接判断下一个单词跟上一组第一个是否一样
             while(j<=s.size()-words.size()*sublen
             &&s.substr(j,sublen)==s.substr(i,sublen)){
                 ret.emplace_back(i+=sublen);
@@ -166,9 +167,72 @@ vector<int> findSubstringtwice(string s, vector<string>& words) {
     return ret;
 }
 
+vector<int> findSubstringtwiceImp(string s, vector<string>& words) {
+    if(words.size()==0||s.size()==0)
+        return vector<int>();
+    int sublen=words[0].size();
+    int num=words.size();
+    map<string,int> nset;
+    if(s.size()<sublen*num)
+        return vector<int>();
+    for(int i=0;i<num;i++){
+        if(nset.count(words[i]))
+            nset[words[i]]++;
+        else
+            nset[words[i]]=1;
+    }
+    vector<int> ret;
+    //类似快速排序，每次起始点为0~sublen，跳隔距离为一个单词的长度sublen
+    for(int i=0;i<sublen;){
+        map<string,int> nmap;
+        auto cnt=0;
+        int start=i;
+        //i为每次每组的开始位置
+        for(int j=i;j+sublen<=s.size();){
+            string tmp=s.substr(j,sublen);
+            j+=sublen;
+            //tmp单词匹配成功
+            if(nset.count(tmp)){
+                if(nmap.count(tmp))
+                    nmap[tmp]++;
+                else
+                    nmap[tmp]=1;
+                cnt++;
+                //情况1:当tmp对应的单词数量超过words中单词数量，i每次后移一个单词直到移除一个tmp单词
+                while(nmap[tmp]>nset[tmp]){
+                    nmap[s.substr(i,sublen)]--;
+                    i+=sublen;
+                    cnt--;
+                }
+            } else{//情况2：不存在该tmp单词，i直接跳到tmp后，重新开始新的一组的匹配
+                i=j;
+                cnt=0;
+                nmap.clear();
+            }
+
+            if(cnt==num){
+                ret.emplace_back(i);
+                //情况3：成功一组，直接比对后一个单词跟该组第一个单词是否相等
+                while(j+sublen<=s.size()&&s.substr(i,sublen)==s.substr(j,sublen)){
+                    i+=sublen;
+                    j+=sublen;
+                    ret.emplace_back(i);
+                }
+                nmap[s.substr(i,sublen)]--;
+                i+=sublen;
+                cnt--;
+            }
+        }
+        //重新恢复最初的0~sublen的初始位置
+        i=start+1;
+    }
+    return ret;
+}
+
 int main(){
-    std::vector<std::string> words{"word","good","best","good"};
-    std::vector<int> ret=findSubstringtwice("wordgoodgoodgoodbestword",words);
+    std::vector<std::string> words{"a","b","a"};
+    std::vector<int> ret=findSubstringtwiceImp("abababab"
+                                               ,words);
     for(int i=0;i<ret.size();i++){
         std::cout<<ret[i]<<std::endl;
     }
