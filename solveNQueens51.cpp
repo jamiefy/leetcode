@@ -45,15 +45,28 @@ bool valid(vector<pair<int,int>> &v,int currow,int i){
 }
 
 bool solveNQ(int n,vector<pair<int,int>> &v,int currow,vector<vector<string>> &ret){
+    if(currow==n){
+        for(auto c:v){
+            ret[c.first][c.second]="Q";
+        }
+        return true;
+    }
+
     for(int i=0;i<n;i++){
         if(v.empty()||valid(v,currow,i)){
-
+            v.emplace_back(currow,i);
+            if(solveNQ(n,v,currow+1,ret)){
+                return true;
+            } else{
+                v.pop_back();
+            }
         }
     }
+    return false;
 }
 
 vector<vector<string>> solveNQueens(int n) {
-        vector<vector<string>> ret;
+        vector<vector<string>> ret(n,vector<string>(n,"."));
         vector<pair<int,int>> v;
         solveNQ(n,v,0,ret);
         return ret;
