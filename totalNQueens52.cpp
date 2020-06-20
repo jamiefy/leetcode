@@ -4,14 +4,13 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-//位运算 df
+//位运算 dfs
 //cnt一定要用&,不然改变的只是产生的临时对象，对cnt本身无影响（一般将cnt设为全局变量）
 void dfs(int n,int row,int col,int ld,int rd,int& cnt,vector<int> &pick){
     if(row==n){
         cnt++;
         return;
     }
-    //test
     //必须加& ((1<<n)-1)，因为int: 4byte =  32 bit 有符号signed范围：
     //2^31-1 ~ -2^31即：2147483647 ~ -2147483648,当为最小负数时无法取反
     //Line 10: Char 29: runtime error: negation of -2147483648 cannot be represented in type 'int'; cast to an unsigned type to negate this value to itself
