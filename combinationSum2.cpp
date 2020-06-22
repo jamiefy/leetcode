@@ -5,7 +5,7 @@
 #include <vector>
 #include <algorithm>
 #include <set>
-
+using namespace std;
 void comSumSortDFS(std::vector<int>& out,std::set<std::vector<int>>& ret,std::vector<int>& candidates,int target,int index) {
     if (target == 0){
         ret.insert(out);
@@ -28,7 +28,7 @@ void comSumSort(std::vector<int>& out,std::set<std::vector<int>>& ret,std::vecto
     }
     if(index==candidates.size())return;
     //对于排序过的数组可直接进行该if判断，可以减少的组合判断，空间和时间消耗减小，实现剪枝
-    if(target / candidates[index]==0)return;//或target / candidates[index]<=0或target / candidates[index]==0||target-candidates[index]<0
+    if(target / candidates[index]==0)return;//或target / candidates[index]<=0或target-candidates[index]<0
     else{
         //一个元素只能用1次或者0次
         for (int count = 1; count >= 0; count--) {
@@ -51,6 +51,30 @@ std::vector<std::vector<int>> combinationSum(std::vector<int>& candidates, int t
     for(auto vec:s){
         ret.emplace_back(vec);
     }
+    return ret;
+}
+
+void dfs(vector<int>& candidates,int target,int index,int cursum,vector<int> &cur,vector<vector<int>>& ret){
+    if(cursum==target){
+        ret.push_back(cur);
+        return;
+    }
+    for(int i=index;i<candidates.size()&&cursum+candidates[i]<=target;i++){
+        //去重
+        if(i>index&&candidates[i-1]==candidates[i])continue;
+        cur.push_back(candidates[i]);
+        dfs(candidates,target,i+1,cursum+candidates[i],cur,ret);
+        cur.pop_back();
+    }
+}
+
+vector<vector<int>> combinationSum2again(vector<int>& candidates, int target) {
+    vector<vector<int>> ret;
+    int size=candidates.size();
+    if(size==0)return ret;
+    sort(candidates.begin(),candidates.end());
+    vector<int> cur;
+    dfs(candidates,target,0,0,cur,ret);
     return ret;
 }
 
