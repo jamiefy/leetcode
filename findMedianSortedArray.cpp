@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+//暴力时间复杂度O(m+n)
 double findMedianSortedArrays(std::vector<int>& nums1, std::vector<int>& nums2) {
     int len1=nums1.size();
     int len2=nums2.size();
