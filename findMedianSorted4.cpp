@@ -78,6 +78,9 @@ double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
     return (m+n)%2==0?(median1+median2)/2.0:median1;
 }
 
+//二分查找
+//时间复杂度：O(log(m+n))，其中 m 和 n 分别是数组 nums1 和 nums2 的长度。初始时有 k=(m+n)/2 或 k=(m+n)/2+1，每一轮循环可以将查找范围减少一半，因此时间复杂度是 O(log(m+n))。
+//空间复杂度：O(1)
 int getKthElement(const vector<int>& nums1, const vector<int>& nums2, int k) {
     /* 主要思路：要找到第 k (k>1) 小的元素，那么就取 pivot1 = nums1[k/2-1] 和 pivot2 = nums2[k/2-1] 进行比较
      * 这里的 "/" 表示整除
