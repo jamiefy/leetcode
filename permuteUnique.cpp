@@ -103,6 +103,7 @@ vector<vector<int>> permuteUniquefind(vector<int>& nums) {
     return ret;
 }
 
+//回溯+剪枝去重
 void dfs(vector<int>& nums,int index,vector<bool>& used,vector<int>& cur,vector<vector<int>>& ret) {
     if (index == nums.size()) {
         ret.push_back(cur);
