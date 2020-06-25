@@ -18,7 +18,7 @@ public:
     int pop() {
         if(!deq.empty()){
             int back=deq.back();
-            deq.erase(deq.begin()+deq.size()-1);
+            deq.pop_back();
             return back;
         }
         return -1;
