@@ -5,7 +5,7 @@
 #include <vector>
 #include <set>
 #include <algorithm>
-
+using namespace std;
 void backTracking(std::set<std::vector<int>> &s,std::vector<int>& nums,std::vector<int>& num){
     if(nums.size()==0)
         s.insert(num);
@@ -18,7 +18,7 @@ void backTracking(std::set<std::vector<int>> &s,std::vector<int>& nums,std::vect
     }
 }
 
-std::vector<std::vector<int>> permuteUnique(std::vector<int>& nums) {
+std::vector<std::vector<int>> permuteUniquepopback(std::vector<int>& nums) {
     std::set<std::vector<int>> s;
     std::vector<int> num;
     backTracking(s,nums,num);
@@ -79,9 +79,61 @@ std::vector<std::vector<int>> permuteUniqueDFS(std::vector<int>& nums) {
     return ret;
 }
 
+void dfs(vector<int>& nums,int index,vector<vector<int>>& ret){
+    if(index==nums.size()){
+        ret.push_back(nums);
+        return;
+    }
+    vector<int> cur={};//记录该位选择过的元素值，已经选择过的值不再选择
+    for(int i=index;i<nums.size();i++){
+        if(find(cur.begin(),cur.end(),nums[i])!=cur.end())continue;
+        swap(nums[index],nums[i]);
+        cur.push_back(nums[index]);
+        dfs(nums,index+1,ret);
+        swap(nums[index],nums[i]);
+    }
+}
+//首先，先要给nums进行排序，这样的做目的是方便剪枝
+//其次，我们已经选择过的不需要再放进去了
+//接下来，如果当前节点与他的前一个节点一样，并其他的前一个节点已经被遍历过了，那我们也就不需要了。
+//通过swap实现的回溯，只能通过find来除重。
+vector<vector<int>> permuteUniquefind(vector<int>& nums) {
+    vector<vector<int>> ret;
+    dfs(nums,0,ret);
+    return ret;
+}
+
+void dfs(vector<int>& nums,int index,vector<bool>& used,vector<int>& cur,vector<vector<int>>& ret) {
+    if (index == nums.size()) {
+        ret.push_back(cur);
+        return;
+    }
+    //i的初始值为0而不是index，每次都要遍历所有位，从未使用的位中挑选下一位
+    for(int i=0;i<nums.size();i++){
+         //大前提必须是该位没有被使用过
+         if(used[i])continue;
+         //如果该位等于前一位且前一位没有被占用则取该位会导致重复，所以去重
+         if(i>0&&nums[i-1]==nums[i]&&!used[i-1])continue;
+         cur.push_back(nums[i]);
+         used[i]=true;
+         dfs(nums,index+1,used,cur,ret);
+         used[i]=false;
+         cur.pop_back();
+    }
+}
+
+vector<vector<int>> permuteUnique(vector<int>& nums){
+    vector<vector<int>> ret;
+    sort(nums.begin(),nums.end());
+    vector<bool> used(nums.size(),false);
+    vector<int> cur;
+    dfs(nums,0,used,cur,ret);
+    return ret;
+}
+
 int main(){
-    std::vector<int> vec{1,2,1};
-    std::vector<std::vector<int>> ret=permuteUniqueDFS(vec);
+    std::vector<int> vec{2,2,1,1};
+    std::vector<std::vector<int>> ret=permuteUnique(vec);
     for(int i=0;i<ret.size();i++){
         for(int j=0;j<ret[0].size();j++){
             std::cout<<ret[i][j]<<' ';
