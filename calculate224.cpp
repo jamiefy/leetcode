@@ -110,9 +110,7 @@ int calculate(string s) {
             }
         }
     }
-    if(operand!=0)
-        result+=sign*operand;
-    return result;
+    return result+sign*operand;
 }
 
 int main(){
