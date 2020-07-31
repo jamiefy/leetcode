@@ -10,7 +10,7 @@ using namespace std;
 //    MedianFinder() {
 //        cnt=0;
 //    }
-//
+//    //首先按num大小判断应该压到哪个堆里，然后再平衡两个堆的数量
 //    void addNum(int num) {
 //        cnt++;
 //        //big是空或者big的最大值大于num先压入big
@@ -50,7 +50,7 @@ public:
     MedianFinder() {
         cnt=0;
     }
-
+    //首先按两个堆的数量判断应该压到哪个堆里，然后比较大小看是哪个数压到这个堆里
     void addNum(int num) {
         //偶数个时，首先向小顶堆压下一个
         if((cnt&1)==0){
