@@ -3,6 +3,7 @@
 //
 #include <iostream>
 #include <vector>
+#include <algorithm>
 using namespace std;
 //归并排序解决逆序对问题
 //时间复杂度：同归并排序O(nlogn)。
@@ -47,8 +48,8 @@ int reversePairs(vector<int>& nums) {
 }
 
 //离散化树状数组
-//时间复杂度：离散化的过程中使用了时间代价为 O(nlogn) 的排序，单次二分的时间代价为 O(logn)，一共有 n 次，总时间代价为 O(n \log n)O(nlogn)；循环执行 nn 次，每次进行 O(\log n)O(logn) 的修改和 O(\log n)O(logn) 的查找，总时间代价为 O(n \log n)O(nlogn)。故渐进时间复杂度为 O(n \log n)O(nlogn)。
-//空间复杂度：树状数组需要使用长度为 n 的数组作为辅助空间，故渐进空间复杂度为 O(n)。
+//时间复杂度：离散化的过程中使用了时间代价为 O(nlogn) 的排序，单次二分的时间代价为 O(logn)，一共有 n 次，总时间代价为 O(nlogn)；循环执行 n 次，每次进行 O(logn) 的修改和 O(logn) 的查找，总时间代价为 O(nlogn)。故渐进时间复杂度为 O(nlogn)。
+//空间复杂度：树状数组需要使用长度为 n 的数组作为辅助空间，故渐进空间复杂度为 O(n)
 class Bit{
 public:
     Bit(int _n):n(_n),bits(_n+1){}
@@ -82,7 +83,7 @@ int reversePairsTree(vector<int>& nums) {
     vector<int> tmp(nums);
     sort(tmp.begin(),tmp.end());
     for(auto &num:nums)
-        //要得到的是num在排序数组中的index+1，即在离散化树状数组中第几个（从1开始），这样之后插入之前可以计算它前面的所有值得个数和，从而得到它在数组中的逆序对数
+        //要得到的是num在排序数组中的index+1，即在离散化树状数组中第几个（从1开始），这样之后插入之前可以计算它前面的所有值的个数和，从而得到它在数组中的逆序对数
         num=lower_bound(tmp.begin(),tmp.end(),num)-tmp.begin()+1;
     Bit bit(n);
     int sum=0;
