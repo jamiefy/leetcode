@@ -106,7 +106,7 @@ int findCircleNumdfs(vector<vector<int>>& M) {
     return cnt;
 }
 
-
+//并查集优化
 class Solution {
 public:
     void init(int n){
