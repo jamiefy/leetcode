@@ -106,7 +106,58 @@ int findCircleNumdfs(vector<vector<int>>& M) {
     return cnt;
 }
 
+
+class Solution {
+public:
+    void init(int n){
+        for(int i=0;i<n;i++){
+            parent.emplace_back(i);
+            rank.emplace_back(0);
+        }
+    }
+
+    int find(int x){
+        return parent[x]==x?x:parent[x]=find(parent[x]);
+    }
+
+    void unite(int x,int y){
+        int xroot=find(x);
+        int yroot=find(y);
+        if(xroot==yroot)return;
+        if(rank[xroot]<rank[yroot])
+            parent[xroot]=yroot;  // 合并是从rank小的向rank大的连边
+        else
+        {
+            parent[yroot]=xroot;
+            if(rank[xroot]==rank[yroot]) rank[xroot]++;
+        }
+        return;
+    }
+
+    int findCircleNum(vector<vector<int>>& M) {
+        int n=M.size();
+        if(n==0)return 0;
+        init(n);
+        for(int i=0;i<n;i++){
+            for(int j=i+1;j<n;j++){
+                if(M[i][j])
+                    unite(i,j);
+            }
+        }
+        int cnt=0;
+        for(int i=0;i<n;i++){
+            if(parent[i]==i)
+                cnt++;
+        }
+        return cnt;
+    }
+private:
+    vector<int> parent;
+    vector<int> rank;
+};
+
 int main(){
-    vector<vector<int>> nums{{1,1,0},{1,1,0},{0,0,1}};
-    cout<<findCircleNumdfs(nums);
+    vector<vector<int>> nums{{1,0,0,1},{0,1,1,0},{0,1,1,1},{1,0,1,1}};
+    Solution s;
+    cout<<s.findCircleNum(nums);
 }
