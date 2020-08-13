@@ -23,8 +23,6 @@ int maxProfit(vector<int>& prices) {
     return que.empty()?profit:profit+que.top();
 }
 
-//adddd
-
 int main(){
     vector<int> nums{1,2,4,2,5,7,2,4,9,0};
     int profit=maxProfit(nums);
